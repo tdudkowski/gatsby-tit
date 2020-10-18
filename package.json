@@ -1,0 +1,27 @@
+{
+  "name": "tit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "gatsby": "^2.24.80",
+    "gatsby-image": "^2.4.21",
+    "gatsby-plugin-fontawesome-css": "^1.0.0",
+    "gatsby-plugin-sharp": "^2.6.40",
+    "gatsby-source-filesystem": "^2.3.34",
+    "gatsby-transformer-sharp": "^2.5.17",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
