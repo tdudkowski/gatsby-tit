@@ -18,14 +18,14 @@ return (
 <p>Forma kart ma charakter multimedialny, zadania zawierają bowiem QR-cody do nagrań audio, filmików czy zadań wykonanych wcześniej przez przewodników ze Stowarzyszenia TUiTAM na platformach e-learningowych. Karty będą dostępne w formie plików PDF do bezpłatnego pobrania na naszej stronie.</p>
 </section>
 <section className="cards">
-<a href="/#1"><Img fluid={data.karta01.childImageSharp.fluid} className="cover" alt="okładka karty 1" /><div>Karta 1 "Gdzie krasnal nie może, tam ciebie pośle!"</div></a>
-<a href="/#1"><Img fluid={data.karta02.childImageSharp.fluid} className="cover" alt="okładka karty 2" /><div>Karta 2 "Gnomes hide, kids find them"</div></a>
-<a href="/#1"><Img fluid={data.karta03.childImageSharp.fluid} className="cover" alt="okładka karty 3" /><div>Karta 3 "Lernt Deutsch und Breslau kennen"</div></a>
-<a href="/#1"><Img fluid={data.karta04.childImageSharp.fluid} className="cover" alt="okładka karty 4" /><div>Karta 4 "Gotyk na dotyk!"</div></a>
-<a href="/#1"><Img fluid={data.karta05.childImageSharp.fluid} className="cover" alt="okładka karty 5" /><div>Karta 5 "Miej oko na barocco!"</div></a>
-<a href="/#1"><Img fluid={data.karta06.childImageSharp.fluid} className="cover" alt="okładka karty 6" /><div>Karta 6 "Na świdnickim rynku, czyli potwory, herosi, greccy bogowie i opiekunowie Świdnicy"</div></a>
-<a href="/#1"><Img fluid={data.karta07.childImageSharp.fluid} className="cover" alt="okładka karty 7" /><div>Karta 7 "W krainie sowiogórskich tajemnic"</div></a>
-<a href="/#1"><Img fluid={data.karta08.childImageSharp.fluid} className="cover" alt="okładka karty 8" /><div>Karta 8 "Wszyscy Święci balują w niebie"</div></a>
+<a href="http://tdudkowski.usermd.net/files/tuitam/odkryj_to_sam_karta_zadan_1.pdf"><Img fluid={data.karta01.childImageSharp.fluid} className="cover" alt="okładka karty 1" /><div>Karta 1 "Gdzie krasnal nie może, tam ciebie pośle!"</div></a>
+<a href="http://tdudkowski.usermd.net/files/tuitam/odkryj_to_sam_karta_zadan_2.pdf"><Img fluid={data.karta02.childImageSharp.fluid} className="cover" alt="okładka karty 2" /><div>Karta 2 "Gnomes hide, kids find them"</div></a>
+<a href="http://tdudkowski.usermd.net/files/tuitam/odkryj_to_sam_karta_zadan_3.pdf"><Img fluid={data.karta03.childImageSharp.fluid} className="cover" alt="okładka karty 3" /><div>Karta 3 "Lernt Deutsch und Breslau kennen"</div></a>
+<a href="http://tdudkowski.usermd.net/files/tuitam/odkryj_to_sam_karta_zadan_4.pdf"><Img fluid={data.karta04.childImageSharp.fluid} className="cover" alt="okładka karty 4" /><div>Karta 4 "Gotyk na dotyk!"</div></a>
+<a href="http://tdudkowski.usermd.net/files/tuitam/odkryj_to_sam_karta_zadan_5.pdf"><Img fluid={data.karta05.childImageSharp.fluid} className="cover" alt="okładka karty 5" /><div>Karta 5 "Miej oko na barocco!"</div></a>
+<a href="http://tdudkowski.usermd.net/files/tuitam/odkryj_to_sam_karta_zadan_6.pdf"><Img fluid={data.karta06.childImageSharp.fluid} className="cover" alt="okładka karty 6" /><div>Karta 6 "Na świdnickim rynku, czyli potwory, herosi, greccy bogowie i opiekunowie Świdnicy"</div></a>
+<a href="http://tdudkowski.usermd.net/files/tuitam/odkryj_to_sam_karta_zadan_7.pdf"><Img fluid={data.karta07.childImageSharp.fluid} className="cover" alt="okładka karty 7" /><div>Karta 7 "W krainie sowiogórskich tajemnic"</div></a>
+<a href="http://tdudkowski.usermd.net/files/tuitam/odkryj_to_sam_karta_zadan_8.pdf"><Img fluid={data.karta08.childImageSharp.fluid} className="cover" alt="okładka karty 8" /><div>Karta 8 "Wszyscy Święci balują w niebie"</div></a>
 
 </section>
 <section>
@@ -44,7 +44,7 @@ export const pageQuery = graphql`
     logo_niw_covid: file(relativePath: { eq: "logo-niw-covid-vertical.png" }) {
       id
       childImageSharp {
-        fluid(maxWidth: 200) {
+        fluid(maxWidth: 600) {
           ...GatsbyImageSharpFluid
         }
       }

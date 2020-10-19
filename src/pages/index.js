@@ -3,6 +3,7 @@ import { graphql, Link } from "gatsby";
 import Img from "gatsby-image";
 import Layout from "../components/layout"
 // import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faHandPointRight
@@ -63,13 +64,13 @@ return (
                 możesz zamówić przewodnika i wybrać trasę wycieczki
               </li>
               <li><FontAwesomeIcon icon={faHandPointRight} size="1x" className="fa-glif" />
-poczytasz o Wrocławiu i o Dolnym Śląsku.</li>
+poczytasz o Wrocławiu i o Dolnym Śląsku (już wkrótce).</li>
             </ul>
           </div>
         </section>
         <section className="projects">
 
-        <div className="project">
+        <div className="project tropem">
           <div>
             <h3>"Tropem naszego dziedzictwa" - przewodnik</h3>
             <p>„Tropem naszego dziedzictwa. Kąty Wrocławskie, Kobierzyce, Żórawina, Siechnice, Domaniów” - przewodnik po gminach leżących w sąsiedztwie lub tuż przy granicach Wrocławia.
@@ -83,7 +84,7 @@ Wydawnictwo współfinansowane jest ze środków UE w ramach realizacji projektu
           </div>
           </div>
           
-        <div className="project">
+        <div className="project dodaj">
           <div>
             <h3>"Od słowa do słowa"</h3>
             <p>„Od słowa do słowa” to projekt realizowany nas od 16 marca do 30 października 2020 roku w ramach programu Narodowego Centrum Kultury pn. „Ojczysty dodaj do ulubionych 2020”. Chcemy zwrócić uwagę na przestrzeń miejską jako nośnik wartości kulturowych, uwrażliwić na język mówiony i pisany, rozbudzić zainteresowanie językiem i literaturą polską.
@@ -95,7 +96,7 @@ W ramach zadania powstały tematyczne karty zadań oraz karta do gry miejskiej. 
             </div>
           </div>
 
-           <div className="project">
+           <div className="project covid">
             <div>
             <h3>Odkryj to sam - edukacja regionalna w sieci</h3>
             <p>            
@@ -111,7 +112,7 @@ Projekt finansowany przez Narodowy Instytut Wolności. Centrum Rozwoju Społecze
             </div>
           </div>
 
-          <div className="project">
+          <div className="project opowiem">
           <div>
             <h3>"Opowiem Ci o Wrocławiu"</h3>
             <p>W ramach projektu powstało sto krótkich historii inspirowanych detalem, miejscem i plenerem filmowym. Tematem postów było dziedzictwo kulturowe Wrocławia, jego zabytki, pomniki, muzea, artyści, wydarzenia z dawnej i powojennej historii miasta. Teksty do publikacji pojawiały się jako codzienne posty na fanpage'u Stowarzyszenia.

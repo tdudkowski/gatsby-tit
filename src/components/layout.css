@@ -33,7 +33,7 @@ header {
   position: sticky;
   top: 0;
   background-color: var(--black-tint);
-  background-color: #665;
+  background-color: #393931;
   z-index: 100;
 }
 
@@ -87,20 +87,30 @@ header nav a {
   display: block;
   text-align: center;
   text-decoration: none;
-  color: #ffd;
+  color: #ddb;
   line-height: 2rem;
 }
 
 header nav a:hover {
   background-color: var(--black-tint);
+  background-color: rgba(250, 250, 250, 0.1);
   text-decoration: underline;
+  color: #fff;
+  transition: 1s;
+}
+
+.active {
+  background-color: rgba(250, 250, 250, 0.08);
+  text-decoration: none;
+  pointer-events: none;
 }
 
 .header-banner {
   /* max-height: 200px; */
-  height: 200px;
+  height: 210px;
   width: 100%;
   position: sticky;
+  padding: 0;
   top: 2.5rem;
   left: 0;
   background-image: url("../images/panorama-header.jpg");
@@ -121,8 +131,11 @@ main > section {
 }
 
 main > section h2 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid #aa9;
   margin: 0;
-  padding: 2rem;
+  margin-left: 1rem;
+  padding: 1rem 0;
 }
 
 section > p {
@@ -141,13 +154,13 @@ main > section form {
   padding-bottom: 2rem;
 } */
 
-main > section:nth-of-type(even) {
+/* main > section:nth-of-type(even) {
   background-color: #ddc;
 }
 
 main > section:nth-of-type(odd) {
   background-color: #eed;
-}
+} */
 
 main > section div {
   /* background-color: var(--white-tint); */
@@ -261,7 +274,9 @@ section.projects > div {
   margin: 1rem;
   width: 90%;
   height: fit-content;
-  box-shadow: 2px 2px 4px #665;
+  border-width: 0;
+  box-shadow: 3px 3px 8px var(--black-tint);
+  border-radius: 3px;
 }
 
 section.projects div h3 {
@@ -282,7 +297,7 @@ section.projects div h3 {
   padding-bottom: 60px;
 }
 
-.project:nth-of-type(1) div::after {
+.project.tropem div::after {
   position: absolute;
   content: "";
   bottom: 0;
@@ -295,11 +310,11 @@ section.projects div h3 {
   background-size: contain;
 }
 
-.project:nth-of-type(2) {
+.project.opowiem {
   padding-bottom: 200px;
 }
 
-.project:nth-of-type(2) div::after {
+.project.opowiem div::after {
   position: absolute;
   content: "";
   left: 0;
@@ -312,11 +327,11 @@ section.projects div h3 {
   background-size: contain;
 }
 
-.project:nth-of-type(3) {
+.project.dodaj {
   padding-bottom: 250px;
 }
 
-.project:nth-of-type(3) div::after {
+.project.dodaj div::after {
   position: absolute;
   content: "";
   left: 0;
@@ -329,11 +344,11 @@ section.projects div h3 {
   background-size: contain;
 }
 
-.project:nth-of-type(4) {
+.project.covid {
   padding-bottom: 300px;
 }
 
-.project:nth-of-type(4) div::after {
+.project.covid div::after {
   position: absolute;
   content: "";
   left: 20px;
@@ -376,14 +391,19 @@ footer a:hover {
   text-decoration: underline;
 }
 
-footer .contact div,
-footer .contact ul {
+footer .contact-data div,
+footer .contact-data ul {
   border: 1px solid rgba(255, 255, 255, 0.65);
   padding: 1rem;
+  list-style-type: none;
 }
 
 footer hr {
   flex-basis: 90%;
+}
+
+footer ul {
+  list-style-type: circle;
 }
 
 /* MEDIA QUERIES */
@@ -399,13 +419,13 @@ footer hr {
     padding-left: 180px;
   }
 
-  .project:nth-of-type(2),
-  .project:nth-of-type(3),
-  .project:nth-of-type(4) {
+  .project.opowiem,
+  .project.dodaj,
+  .project.covid {
     padding-bottom: 0;
   }
 
-  .project:nth-of-type(2) div::after {
+  .project.opowiem div::after {
     position: absolute;
     content: "";
     top: 0;
@@ -416,7 +436,7 @@ footer hr {
     background-size: contain;
   }
 
-  .project:nth-of-type(3) div::after {
+  .project.dodaj div::after {
     position: absolute;
     content: "";
     top: 0;
@@ -427,7 +447,7 @@ footer hr {
     background-size: contain;
   }
 
-  .project:nth-of-type(4) div::after {
+  .project.covid div::after {
     position: absolute;
     content: "";
     top: 10px;
@@ -472,6 +492,12 @@ footer hr {
     line-height: 2.5rem;
   }
 
+  main > section h2 {
+    font-size: 1.5rem;
+    border-bottom: 1px solid #aa9;
+    margin-left: 15rem;
+  }
+
   section.hero {
     background-position: center 2.5rem;
     background-attachment: fixed;
@@ -479,7 +505,7 @@ footer hr {
   }
 
   section.hero > div {
-    background-image: url("../images/panorama-header-tint.jpg");
+    background-image: url("../images/panorama-header-tint-blue.jpg");
     background-repeat: no-repeat;
     background-position: center 2.5rem;
     background-attachment: fixed;
@@ -495,6 +521,7 @@ footer hr {
     margin: 1rem 0;
     margin-top: -2rem;
     max-width: 30%;
+    background-color: rgba(250, 250, 250, 0.9);
   }
 
   section.fb-info ul {
@@ -575,16 +602,39 @@ form input {
 
 form div {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   padding: 1rem;
 }
 
-form button {
-  font-size: 1.3rem;
+form button,
+form input.btn {
+  font-size: 1rem;
+  margin: 0.5rem;
   padding: 0.4rem;
-  width: 10rem;
+  width: 80%;
   background-color: #fff;
   border: 1px solid var(--black-tint);
+}
+
+@media (min-width: 550px) {
+  form div {
+    flex-direction: row;
+  }
+
+  form button,
+  form input.btn {
+    font-size: 1.3rem;
+    /* width: 18rem; */
+  }
+}
+
+form button:hover,
+form input.btn:hover {
+  cursor: pointer;
+  background-color: #ffd;
+  color: #221;
+  border: 1px solid #443;
 }
 
 main > section.guides {
@@ -594,7 +644,7 @@ main > section.guides {
 /* GUIDES */
 
 .guides > div {
-  width: 40rem;
+  max-width: 40rem;
   min-width: 70%;
   margin: 1rem;
   margin-left: auto;
@@ -606,9 +656,17 @@ main > section.guides {
   display: flex;
 }
 
-.guides div.gatsby-image-wrapper {
-  flex-basis: 100px;
+.guides > div > div.gatsby-image-wrapper {
+  display: none;
+  flex-basis: 0;
   border-radius: 4px 0 0 4px;
+}
+
+@media (min-width: 550px) {
+  .guides > div > div.gatsby-image-wrapper {
+    display: block;
+    flex-basis: 100px;
+  }
 }
 
 .guides ul {
@@ -823,24 +881,58 @@ main > section.books {
 
 .videos > div {
   position: relative;
-  margin: 2rem 1rem;
+  margin: 3rem 0;
+  padding: 0;
+}
+
+.videos > div iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 550px) {
+  .videos > div {
+    margin: 3rem 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .videos > div {
+    width: 400px;
+    height: 200px;
+  }
+  .videos > div iframe {
+    height: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .videos > div {
+    width: 550px;
+    height: 275px;
+  }
+  .videos > div iframe {
+    height: 275px;
+  }
 }
 
 .videos > div > div:nth-of-type(2) {
   box-sizing: border-box;
   position: absolute;
-  bottom: 0;
+  top: 100%;
   left: 0;
   width: 100%;
   background-color: rgba(51, 51, 51, 0.8);
   color: #ffe;
   padding: 0.3rem;
+  margin-top: -4px;
 }
 
 .videos > div:hover > div:nth-of-type(2) {
   background-color: rgba(51, 51, 51, 0.9);
   color: #ee6;
 }
+
 /* SOCIETY */
 
 main > section.society {

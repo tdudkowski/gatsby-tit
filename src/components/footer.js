@@ -1,5 +1,6 @@
 import React from "react"
 import {Link} from "gatsby"
+import "../styles/font-awesome/css/font-awesome.css"
 
 const Footer = () => {
   return (<footer>
@@ -29,17 +30,17 @@ const Footer = () => {
 </ul>
 </div>
 
-<div className="contact">
-<h3>Stowarzyszenie</h3>
+<div className="contact-data">
+<h3>Dane kontaktowe</h3>
 <div>
 Stowarzyszenie Podróżników TUiTAM<br/>
 Wierzbice, ul. Lipowa 47<br/>
 55-040 Kobierzyce<br/>
 </div>
 <ul>
-<li>+48 661 172 250</li>
-<li>tuitam.przewodnicy@interia.pl</li>
-<li>przewodnicy.org</li>
+<li> <i className="fa fa-mobile" aria-hidden="true"></i>&nbsp; +48 661 172 250</li>
+<li> <i className="fa fa-at" aria-hidden="true"></i> tuitam.przewodnicy@interia.pl</li>
+<li> <i className="fa fa-laptop" aria-hidden="true"></i> przewodnicy.org</li>
  </ul>
  </div>
     <hr/>

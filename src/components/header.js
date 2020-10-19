@@ -5,16 +5,16 @@ import Logo from "../images/logo.png";
 const Header = () => {
   
   return (<header><div className="logo">
-      <a href="/"><img src={Logo} alt="logo Stowarzyszenia" height="100"/></a>
+      <Link to="/" activeClassName="active"><img src={Logo} alt="logo Stowarzyszenia" height="100"/></Link>
             </div>
   {/* <div className="search">SEARCH</div> */}
   <nav>
     <ul>
-      <li><Link to="/oferta">Oferta</Link></li>
-      <li><Link to="/projekty">Działalność</Link></li>
-      {/* <li><Link to="/#3">O regionie</Link></li> */}
-      <li><Link to="/stowarzyszenie">O nas</Link></li>
-      <li><Link to="/kontakt">Kontakt</Link></li>
+      <li><Link to="/oferta" activeClassName="active">Oferta</Link></li>
+      <li><Link to="/projekty" activeClassName="active">Projekty</Link></li>
+      {/* <li><Link to="/#3" activeClassName="active">O regionie</Link></li> */}
+      <li><Link to="/stowarzyszenie" activeClassName="active">Stowarzyszenie</Link></li>
+      <li><Link to="/kontakt" activeClassName="active">Kontakt</Link></li>
     </ul>
   </nav></header>)}
 

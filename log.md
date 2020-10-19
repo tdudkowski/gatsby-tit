@@ -9,6 +9,13 @@ npm i --save @fortawesome/fontawesome-svg-core
   
   npm install --save gatsby-plugin-fontawesome-css
 
+- formularz ?
+- title (helmet) ?
+- oferta
+
+<link rel="icon" type="image/png" href="http://example.com/myicon.png">
+
+
 ## TRASH
 
  <section>

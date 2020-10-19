@@ -12,54 +12,59 @@ return (
 <h2>Projekty</h2>
 </section>
 <section className="projects">
-          <div className="project">
-          <div>
-            <h3>"Tropem naszego dziedzictwa" - przewodnik</h3>
-            <p>„Tropem naszego dziedzictwa. Kąty Wrocławskie, Kobierzyce, Żórawina, Siechnice, Domaniów” - przewodnik po gminach leżących w sąsiedztwie lub tuż przy granicach Wrocławia.
+
+<div className="project tropem">
+  <div>
+    <h3>"Tropem naszego dziedzictwa" - przewodnik</h3>
+    <p>„Tropem naszego dziedzictwa. Kąty Wrocławskie, Kobierzyce, Żórawina, Siechnice, Domaniów” - przewodnik po gminach leżących w sąsiedztwie lub tuż przy granicach Wrocławia.
 </p><p>
 Autorzy: tekst Marta Miniewicz, zdjęcia Zbigniew Sobierajski.<br />
 PDF do pobrania, 96 stron, 12 MB.
 </p><p>
 Wydawnictwo współfinansowane jest ze środków UE w ramach realizacji projektu grantowego LGD Lider A4 pod nazwą "Dbamy o nasze dziedzictwo, w przestrzeni obszaru Lider A4 i działaniach mieszkańców!"
-            </p>
-                        <Link to="/tropem-naszego-dziedzictwa" className="link-button">Przejdź do projektu</Link>
-          </div>
-          </div>
-          <div className="project">
-          <div>
-            <h3>"Opowiem Ci o Wrocławiu"</h3>
-            <p>W ramach projektu powstało sto krótkich historii inspirowanych detalem, miejscem i plenerem filmowym. Tematem postów było dziedzictwo kulturowe Wrocławia, jego zabytki, pomniki, muzea, artyści, wydarzenia z dawnej i powojennej historii miasta. Teksty do publikacji pojawiały się jako codzienne posty na fanpage'u Stowarzyszenia.
-            </p>
-           <Link to="opowiem-ci-o-wroclawiu"  className="link-button">Przejdź do projektu</Link>
-          </div>
-          </div>
-          <div className="project">
-          <div>
-            <h3>"Od słowa do słowa"</h3>
-            <p>„Od słowa do słowa” to projekt realizowany nas od 16 marca do 30 października 2020 roku w ramach programu Narodowego Centrum Kultury pn. „Ojczysty dodaj do ulubionych 2020”. Chcemy zwrócić uwagę na przestrzeń miejską jako nośnik wartości kulturowych, uwrażliwić na język mówiony i pisany, rozbudzić zainteresowanie językiem i literaturą polską.
-            </p>
-            <p>
+    </p>
+                <Link to="/tropem-naszego-dziedzictwa" className="link-button">Przejdź do projektu</Link>
+  </div>
+  </div>
+  
+<div className="project dodaj">
+  <div>
+    <h3>"Od słowa do słowa"</h3>
+    <p>„Od słowa do słowa” to projekt realizowany nas od 16 marca do 30 października 2020 roku w ramach programu Narodowego Centrum Kultury pn. „Ojczysty dodaj do ulubionych 2020”. Chcemy zwrócić uwagę na przestrzeń miejską jako nośnik wartości kulturowych, uwrażliwić na język mówiony i pisany, rozbudzić zainteresowanie językiem i literaturą polską.
+    </p>
+    <p>
 W ramach zadania powstały tematyczne karty zadań oraz karta do gry miejskiej. Częścią praktyczna jest osiem wycieczek tematycznych.
-            </p>
-            <Link to="/od-slowa-do-slowa"  className="link-button">Przejdź do projektu</Link>
-            </div>
-          </div>
-          <div className="project">
-            <div>
-            <h3>Odkryj to sam - edukacja regionalna w sieci</h3>
-            <p>            
+    </p>
+    <Link to="/od-slowa-do-slowa"  className="link-button">Przejdź do projektu</Link>
+    </div>
+  </div>
+
+   <div className="project covid">
+    <div>
+    <h3>Odkryj to sam - edukacja regionalna w sieci</h3>
+    <p>            
 W ramach projektu „Covid-19” i zadania „Odkryj to sam - edukacja regionalna w sieci” przygotowanych zostało 8 multimedialnych kart aktywności dla dzieci i młodzieży oraz rodzin z dziećmi. Tematyczne karty rozwijają zainteresowania społeczności lokalnej Wrocławiem, jego dziedzictwem kulturowym oraz pogłębiają wiedzę o powiecie wrocławskim i regionie dolnośląskim.
 </p>
-            <p>
+    <p>
 Zadanie „Odkryj to sam – edukacja regionalna w sieci” zostało sfinansowane ze środków otrzymanych z NIW-CRSO w ramach „Programu Wsparcia Doraźnego Organizacji Pozarządowych w Zakresie Przeciwdziałania Skutkom COVID-19".
 </p>
-            <p>
+    <p>
 Projekt finansowany przez Narodowy Instytut Wolności. Centrum Rozwoju Społeczeństwa Obywatelskiego
-            </p>
-            <Link to="/odkryj-to-sam"  className="link-button">Przejdź do projektu</Link>
-            </div>
-          </div>
-        </section>
+    </p>
+    <Link to="/odkryj-to-sam"  className="link-button">Przejdź do projektu</Link>
+    </div>
+  </div>
+
+  <div className="project opowiem">
+  <div>
+    <h3>"Opowiem Ci o Wrocławiu"</h3>
+    <p>W ramach projektu powstało sto krótkich historii inspirowanych detalem, miejscem i plenerem filmowym. Tematem postów było dziedzictwo kulturowe Wrocławia, jego zabytki, pomniki, muzea, artyści, wydarzenia z dawnej i powojennej historii miasta. Teksty do publikacji pojawiały się jako codzienne posty na fanpage'u Stowarzyszenia.
+    </p>
+   <Link to="opowiem-ci-o-wroclawiu"  className="link-button">Przejdź do projektu</Link>
+  </div>
+  </div>       
+
+</section>
        
 </Layout>)
 }

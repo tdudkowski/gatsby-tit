@@ -19,15 +19,15 @@ return (
     <p>Informacje o datach wycieczek i gier miejskich umieszczamy na fanpage'u Tuitam: <a href="https://www.facebook.com/stowarzyszenieTUiTAM/">facebook.com/stowarzyszenieTUiTAM</a> </p>
 </section>
 <section className="cards">
-<a href="/#1"><Img fluid={data.karta1_okladka.childImageSharp.fluid} className="cover" alt="okładka karty 1" /><div>Karta pracy 1 "Od Adama i Ewy" (2 strony, 5 zadań)</div></a>
-<a href="/#1"><Img fluid={data.karta2_okladka.childImageSharp.fluid} className="cover" alt="okładka karty 2" /><div>Karta pracy 2 "Po kocich ścieżkach w mieście" (2 strony, 5 zadań)</div></a>
-<a href="/#1"><Img fluid={data.karta3_okladka.childImageSharp.fluid} className="cover" alt="okładka karty 3" /><div>Karta pracy 3 "Mitologia w małym palcu" (2 strony, 7 zadań)</div></a>
-<a href="/#1"><Img fluid={data.karta4_okladka.childImageSharp.fluid} className="cover" alt="okładka karty 4" /><div>Karta pracy 4 "Znam wrocławskich legend wiele" (2 strony, 6 zadań)</div></a>
-<a href="/#1"><Img fluid={data.karta5_okladka.childImageSharp.fluid} className="cover" alt="okładka karty 5" /><div>Karta pracy 5 "Od słowa do słowa gra miejska po Wrocławiu" (4 strony, 33 zadania)</div></a>
+<a href="http://tdudkowski.usermd.net/files/tuitam/od_slowa_do_slowa_karta_zadan_1.pdf"><Img fluid={data.karta1_okladka.childImageSharp.fluid} className="cover" alt="okładka karty 1" /><div>Karta pracy 1 "Od Adama i Ewy" (2 strony, 5 zadań)</div></a>
+<a href="http://tdudkowski.usermd.net/files/tuitam/od_slowa_do_slowa_karta_zadan_2.pdf"><Img fluid={data.karta2_okladka.childImageSharp.fluid} className="cover" alt="okładka karty 2" /><div>Karta pracy 2 "Po kocich ścieżkach w mieście" (2 strony, 5 zadań)</div></a>
+<a href="http://tdudkowski.usermd.net/files/tuitam/od_slowa_do_slowa_karta_zadan_3.pdf"><Img fluid={data.karta3_okladka.childImageSharp.fluid} className="cover" alt="okładka karty 3" /><div>Karta pracy 3 "Mitologia w małym palcu" (2 strony, 7 zadań)</div></a>
+<a href="http://tdudkowski.usermd.net/files/tuitam/od_slowa_do_slowa_karta_zadan_4.pdf"><Img fluid={data.karta4_okladka.childImageSharp.fluid} className="cover" alt="okładka karty 4" /><div>Karta pracy 4 "Znam wrocławskich legend wiele" (2 strony, 6 zadań)</div></a>
+<a href="http://tdudkowski.usermd.net/files/tuitam/od_slowa_do_slowa_karta_zadan_5.pdf"><Img fluid={data.karta5_okladka.childImageSharp.fluid} className="cover" alt="okładka karty 5" /><div>Karta pracy 5 "Od słowa do słowa gra miejska po Wrocławiu" (4 strony, 33 zadania)</div></a>
 
 </section>
        <section><hr/>
-       <Img fluid={data.od_slowa_do_slowa_logo.childImageSharp.fluid}  alt="logo projektu" width="484" className="project-logo" />
+       <Img fluid={data.od_slowa_do_slowa_logo.childImageSharp.fluid}  alt="logo projektu" className="project-logo" />
        </section>
 </Layout>)
 }
@@ -37,7 +37,7 @@ export const pageQuery = graphql`
     od_slowa_do_slowa_logo: file(relativePath: { eq: "od-slowa-do-slowa-logo.png" }) {
       id
       childImageSharp {
-        fluid(maxWidth: 200) {
+        fluid(maxWidth: 1200) {
           ...GatsbyImageSharpFluid
         }
       }
