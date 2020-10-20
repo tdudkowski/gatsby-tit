@@ -11,8 +11,8 @@ const Header = () => {
   <nav>
     <ul>
       <li><Link to="/oferta" activeClassName="active">Oferta</Link></li>
-      <li><Link to="/projekty" activeClassName="active">Projekty</Link></li>
-      {/* <li><Link to="/#3" activeClassName="active">O regionie</Link></li> */}
+      <li><Link to="/dzialalnosc" activeClassName="active">Działalność</Link></li>
+      <li><Link to="/o-regionie" activeClassName="active">O regionie</Link></li>
       <li><Link to="/stowarzyszenie" activeClassName="active">Stowarzyszenie</Link></li>
       <li><Link to="/kontakt" activeClassName="active">Kontakt</Link></li>
     </ul>

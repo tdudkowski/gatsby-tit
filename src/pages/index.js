@@ -20,8 +20,8 @@ return (
               <Link to="/przewodnicy" className="link-button">Nasi przewodnicy</Link>
             </div>
             <div>
-              <p>Poznaj nasze Stowarzyszenie</p>
-              <Link to="/projekty" className="link-button">Nasze projekty</Link>
+              <p>Co robi nasze Stowarzyszenie</p>
+              <Link to="/dzialalnosc" className="link-button">Działalność</Link>
             </div>
             <div>
               <p>Chcesz zorganizować wycieczkę?</p>
@@ -70,7 +70,7 @@ poczytasz o Wrocławiu i o Dolnym Śląsku (już wkrótce).</li>
           </div>
         </section>
         <section className="projects">
-
+<h2>Aktualności - 2020</h2>
         <div className="project tropem">
           <div>
             <h3>"Tropem naszego dziedzictwa" - przewodnik</h3>

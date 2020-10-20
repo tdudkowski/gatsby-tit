@@ -13,7 +13,11 @@ return (
 </section>
 <section className="offer">
    <div><h3>Przewodnicy</h3>
-   <p>Doświadczeni przewodnicy, znający wiele języków, piloci wycieczek, przewodnicy miejscy wrocławscy, prascy, przewodnicy górscy sudeccy. Znamy Polskę, Czechy, Saksonię, Brandenburgię i nie tylko </p>
+      <ul>
+      <li>Doświadczeni przewodnicy, znający wiele języków.</li>
+      <li>Piloci wycieczek, przewodnicy miejscy wrocławscy, prascy, przewodnicy górscy sudeccy.</li>
+      <li>Znamy Polskę, Czechy, Saksonię, Brandenburgię i nie tylko</li>
+   </ul>
 <Link to="/przewodnicy" className="link-button" >Lista przewodników</Link>
    </div>
    <div><h3>Trasy wycieczek</h3>

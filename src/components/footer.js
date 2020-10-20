@@ -16,15 +16,29 @@ const Footer = () => {
 <li><Link to="/publikacje">Publikacje</Link></li>
   </ul>
   </li>
-  <li><Link to="/projekty">Działalność</Link>
+  <li><Link to="/dzialalnosc">Działalność</Link>
   <ul>
+    <li className="line">2020</li>
     <li><Link to="/tropem-naszego-dziedzictwa">Tropem naszego dziedzictwa</Link></li>
     <li><Link to="/opowiem-ci-o-wroclawiu">Opowiem ci o Wrocławiu</Link></li>
     <li><Link to="/od-slowa-do-slowa">Od słowa do słowa</Link></li>
     <li><Link to="/odkryj-to-sam">Odkryj to sam</Link></li>
+    <li className="line">Poprzednie lata</li>
+    <li><Link to="/odkrywamy-wroclaw">Odkrywamy Wrocław</Link></li>
+    <li><Link to="/poznajemy-wroclaw">Poznajemy Wrocław</Link></li>
+    <li><Link to="/strona-po-stronie">Strona po stronie</Link></li>
+    <li><Link to="/szkola-w-miescie">Szkoła w mieście</Link></li>
+    <li><Link to="/wycieczki-po-dolnym-slasku-i-nie-tylko">Wycieczki po Dolnym Śląsku i nie tylko</Link></li>
+    <li><Link to="/szkola-w-miescie">Szkoła w mieście</Link></li>
   </ul>
   </li>
-  
+  <li><Link to="/o-regionie">O regionie</Link>
+  <ul>
+    <li><Link to="/wroclaw">Wrocław</Link></li>
+    <li><Link to="/dolny-slask">Dolny Śląsk</Link></li>
+    <li><Link to="/materialy">Materiały</Link></li>
+  </ul>
+  </li>
   <li><Link to="/stowarzyszenie">Stowarzyszenie</Link></li>
   <li><Link to="/kontakt">Kontakt</Link></li>
 </ul>

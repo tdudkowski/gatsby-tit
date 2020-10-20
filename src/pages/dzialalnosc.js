@@ -9,7 +9,24 @@ return (
 <Layout>
 <Banner />
 <section>
-<h2>Projekty</h2>
+<h2>Działalność</h2>
+<h3>Poprzednie lata</h3>
+</section>
+<section>
+  <ul>
+    <li><Link to="/wycieczki-po-dolnym-slasku-i-nie-tylko">Wycieczki po Dolnym Śląsku i nie tylko</Link></li>
+    <li><Link to="/szkola-w-miescie">Szkoła w Mieście</Link></li>
+    <li><Link to="/projekty-edukacyjne">Projekty edukacyjne</Link></li>
+    <li><Link to="/odkrywamy-wroclaw">Odkrywamy Wrocław</Link></li>
+    <li><Link to="/poznajemy-wroclaw">Poznajemy Wrocław</Link></li>
+    <li><Link to="/strona-po-stronie">Strona po stronie</Link></li>
+    <li><Link to="/dolny-slask">Dolny Śląsk</Link></li>
+    <li><Link to="/wroclaw">Wrocław</Link></li>
+    <li><Link to="/materialy">Materiały</Link></li>
+  </ul>
+</section>
+<section>
+<h3>Aktualności 2020</h3>
 </section>
 <section className="projects">
 
