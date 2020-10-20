@@ -3,11 +3,12 @@
   --black-tint: rgba(51, 51, 51, 0.5);
 }
 
+/* 5273467117533091 */
 body {
   padding: 0;
   margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 .cover {
@@ -33,7 +34,7 @@ header {
   position: sticky;
   top: 0;
   background-color: var(--black-tint);
-  background-color: #393931;
+  background-color: #696961;
   z-index: 100;
 }
 
@@ -47,6 +48,11 @@ header div.logo {
   max-width: 30%;
   /* background-color: var(--white-tint); */
   padding: 10px;
+  background-color: rgba(200, 200, 200, 0.2);
+  border: 1px solid #aa9;
+  border-radius: 10px;
+  height: fit-content;
+  margin: 5px;
 }
 
 header div.logo img {
@@ -85,7 +91,8 @@ header nav ul li {
 
 header nav a {
   display: block;
-  text-align: center;
+  text-align: left;
+  padding-left: 2rem;
   text-decoration: none;
   color: #ddb;
   line-height: 2rem;
@@ -142,26 +149,6 @@ section > p {
   margin: 1rem;
 }
 
-/* main > section p:nth-of-type(1),
-main > section form {
-  margin-top: 0;
-  padding-top: 2rem;
-}
-
-main > section p:last-of-type,
-main > section form {
-  margin-bottom: 0;
-  padding-bottom: 2rem;
-} */
-
-/* main > section:nth-of-type(even) {
-  background-color: #ddc;
-}
-
-main > section:nth-of-type(odd) {
-  background-color: #eed;
-} */
-
 main > section div {
   /* background-color: var(--white-tint); */
 }
@@ -195,7 +182,7 @@ section.hero > div div {
   box-shadow: 1px 1px 4px var(--black-tint);
   background-color: rgba(250, 250, 250, 0.9);
 
-  height: 9rem;
+  height: auto;
 }
 
 section.hero > div div p {
@@ -223,7 +210,7 @@ section.hero > div div p {
 }
 
 section.hero > div div .link-button {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: bold;
   /* padding: 0.5rem; */
   margin: 0 auto 1rem auto;
@@ -408,11 +395,16 @@ footer ul {
 
 /* MEDIA QUERIES */
 
-@media (min-width: 550px) {
+@media (min-width: 600px) {
   section.hero > div div {
     flex: 1;
     margin: 1rem;
     /* width: 45%; */
+  }
+
+  .hero .link-button {
+    margin: 1rem;
+    width: 10rem;
   }
 
   .project > div {
@@ -465,11 +457,15 @@ footer ul {
     max-height: 2.5rem;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: #393931;
   }
+
   header div.logo {
     margin-top: -20px;
     transform: rotate(-6deg);
     max-width: 200px;
+    background-color: transparent;
+    border: none;
   }
 
   header nav {
@@ -490,6 +486,8 @@ footer ul {
 
   header nav a {
     line-height: 2.5rem;
+    text-align: center;
+    padding-left: 0;
   }
 
   main > section h2 {
@@ -505,7 +503,7 @@ footer ul {
   }
 
   section.hero > div {
-    background-image: url("../images/panorama-header-tint-blue.jpg");
+    background-image: url("../images/panorama-header-sepia.jpg");
     background-repeat: no-repeat;
     background-position: center 2.5rem;
     background-attachment: fixed;
@@ -521,7 +519,8 @@ footer ul {
     margin: 1rem 0;
     margin-top: -2rem;
     max-width: 30%;
-    background-color: rgba(250, 250, 250, 0.9);
+    height: 8rem;
+    background-color: rgba(250, 250, 250, 0.95);
   }
 
   section.fb-info ul {
@@ -529,6 +528,7 @@ footer ul {
     list-style-type: none;
     padding-left: 0;
   }
+
   section.fb-info ul li {
     flex: 1;
     margin: 0.5rem;
@@ -542,11 +542,18 @@ footer ul {
   section.hero > div div {
     margin: 2rem 0;
     margin-top: -2rem;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+    color: #333;
+    /* text-shadow: 1px 1px 1px #000, 3px 3px 5px #333; */
+  }
+
+  section.hero > div div .link-button {
+    font-size: 1.3rem;
+    width: 12rem;
   }
 
   section.fb-info {
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
 
   section.fb-info div.mission ul {
@@ -933,10 +940,49 @@ main > section.books {
   color: #ee6;
 }
 
+/* OFFER */
+
+main > section.offer {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.offer > div {
+  flex: 1;
+  width: 90%;
+  max-width: 40rem;
+  margin: 1rem 2rem 2rem auto;
+  border: 1px solid var(--black-tint);
+  padding: 0.5rem;
+}
+
+@media (min-width: 1200px) {
+  main > section.offer {
+    flex-direction: row;
+  }
+  .offer > div {
+    border: none;
+    box-shadow: 2px 2px 4px var(--black-tint);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .offer > div .link-button {
+    justify-self: flex-end;
+    margin-top: auto;
+  }
+}
+
 /* SOCIETY */
 
-main > section.society {
-  background-color: #fff;
+main > section.society div {
+  /* background-color: #fff; */
+  width: 90%;
+  max-width: 50rem;
+  margin: 1rem 2rem 2rem auto;
+  border: 1px solid var(--white-tint);
+  padding: 0.5rem;
 }
 
 .society ul {
