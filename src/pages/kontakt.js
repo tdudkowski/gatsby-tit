@@ -8,7 +8,7 @@ return (
 <Layout>
     <Banner />
     <section>
-<h2>Kontakt</h2>
+<h2>Kontakt / Contact</h2>
 </section>
 <section>
     <form action=""
@@ -20,9 +20,9 @@ netlify-honeypot="bot-field">
 <input type="hidden" name="bot-field" aria-label="hidden field" />
 <input type="hidden" name="form-name" value="contact" aria-label="hidden field"/>
 
-        <label htmlFor="name" aria-label="name">Nadawca</label>
+        <label htmlFor="name" aria-label="name">Nadawca / Sender</label>
         <input type="text" id="name" name="name"/>
-        <label htmlFor="email">Adres e-mail</label>
+        <label htmlFor="email">Adres e-mail / Your e-mail</label>
         <input
   type="email"
   // id="email"
@@ -30,9 +30,9 @@ netlify-honeypot="bot-field">
   id="_replyto"
   aria-label="email"
 />
-        <label htmlFor="title">Tytuł wiadomości</label>
+        <label htmlFor="title">Tytuł wiadomości / Message title</label>
         <input type="text" id="title" name="title"/>
-        <label htmlFor="message">Wiadomość <span>(wymagane)</span></label>
+        <label htmlFor="message">Wiadomość / Message <span>(wymagane / required)</span></label>
         <textarea
   name="message"
   id="message"

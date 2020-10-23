@@ -77,7 +77,7 @@ Projekt finansowany przez Narodowy Instytut Wolności. Centrum Rozwoju Społecze
     <h3>"Opowiem Ci o Wrocławiu"</h3>
     <p>W ramach projektu powstało sto krótkich historii inspirowanych detalem, miejscem i plenerem filmowym. Tematem postów było dziedzictwo kulturowe Wrocławia, jego zabytki, pomniki, muzea, artyści, wydarzenia z dawnej i powojennej historii miasta. Teksty do publikacji pojawiały się jako codzienne posty na fanpage'u Stowarzyszenia.
     </p>
-   <Link to="opowiem-ci-o-wroclawiu"  className="link-button">Przejdź do projektu</Link>
+   <Link to="/opowiem-ci-o-wroclawiu"  className="link-button">Przejdź do projektu</Link>
   </div>
   </div>       
 

@@ -35,6 +35,8 @@ return (
 
 <div><Video className="video" videoSrcURL="https://www.youtube.com/embed/PTbDSRIygXw" videoTitle='"Literacki Wrocław" Marta Miniewicz [8:41]' /><div>"Literacki Wrocław" Marta Miniewicz [8:41]</div></div>
 
+<div><Video className="video" videoSrcURL="https://www.youtube.com/embed/R-TD-4j6xi8" videoTitle='"Eugeniusz Get-Stankiewicz" Wojtek Zalewski [8:20]' /><div>"Eugeniusz Get-Stankiewicz" Wojtek Zalewski [8:20]</div></div>
+
 </section>
        <section>
          <hr/>

@@ -5,6 +5,7 @@ node_modules
 public
 # Other
 .DS_Store
+log.md
 # Logs
 logs
 *.log
