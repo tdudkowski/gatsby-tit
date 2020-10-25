@@ -1,20 +1,21 @@
 const path = require(`path`)
 
 module.exports = {
-    siteMetadata: {
-      title: `Stowarzyszeniee TUiTAM`,
-      description: `Stowarzyszeniee TUiTAM`,
-      author: `Tadeusz Dudkowski | http://dygresje.info`,
-      siteUrl: `http://przewodnicy.org/`,
-    },
-pathPrefix: "/gatsby-tit",
-        plugins: [
+  siteMetadata: {
+    title: `Stowarzyszeniee TUiTAM`,
+    description: `Stowarzyszeniee TUiTAM, turystyka, wycieczka, Dolny Śląsk, Wrocław, Ostrów Tumski, Sudety`,
+    author: `Tadeusz Dudkowski | http://dygresje.info`,
+    siteUrl: `http://przewodnicy.org/`,
+  },
+  pathPrefix: "/gatsby-tit",
+  plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-styled-components',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
