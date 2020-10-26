@@ -17,6 +17,7 @@ npm install --save gatsby-plugin-styled-components styled-components babel-plugi
 
 <link rel="icon" type="image/png" href="http://example.com/myicon.png">
 
+d.i
 
 ## TRASH
 
