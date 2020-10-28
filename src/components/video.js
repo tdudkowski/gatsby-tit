@@ -9,8 +9,8 @@ const Video = ({ videoSrcURL, videoTitle, ...props }) => (
       webkitallowfullscreen="true"
       mozallowfullscreen="true"
       allowFullScreen
-      maxHeight="315"
-      maxWidth="560"
+      maxheight="315"
+      maxwidth="560"
     />
   </div>
 );

@@ -134,7 +134,7 @@ main {
 
 main > section {
   background-color: #ffe;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 0.5rem;
 }
 
@@ -1065,5 +1065,38 @@ main .idky {
   background-color: #ffd;
   color: #333;
   border: 1px solid rgba(51, 51, 51, 0.9);}
+
+section.audio {display: flex; flex-wrap: wrap;}
+section.audio hr {flex-basis: 100%;}
+
+section.audio figure {max-width:90%; margin:5px; box-shadow: 3px 3px 6px rgba(51,51,51,.6); height: fit-content;  position: sticky; top:60px; align-self: flex-start ; border-radius:10px; background-color: #ffe;}
+section.audio figcaption {padding:1rem; background-color: #554; color:#ddc; border-radius: 10px 10px 0 0;}
+section.audio audio {width: 100%; outline: none;  background-color: #ffe;}
+
+section.audio ul {list-style-type: none; padding-left: 2rem;}
+section.audio ul button {border:1px solid transparent; background-color: transparent; font-size:.9em; outline: none;}
+section.audio ul button:hover {text-decoration: underline; cursor: pointer;}
+
+.project-logo {max-width:90%;}
+
+@media (min-width:800px) {
+  section.audio figure {width:35rem; }
+}
+
+/* 
+section.audio {position: relative;}
+
+.audioplayer {
+  position: absolute;
+  top:0;
+  background-color: #fff;
+  border:2px solid red;
+width:100%;
+background-color: #b7b7b7;
+  padding: 2.5rem;
+  border-radius: 10px;
+  filter: invert(100%);
+} */
+section + h3 {background-color: #ffe; margin:0; padding:.5rem;}
 
 /*  */
