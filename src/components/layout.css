@@ -26,6 +26,24 @@ div.container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  
+}
+
+.line-bottom {
+  border-bottom: 1px solid rgba(51,51,51,.2);
+  padding-bottom: .6rem;
+  margin-left:4rem;
+  position: relative;
+}
+.line-bottom::before {
+  position: absolute;
+  content: "";
+  top:0;
+  left:-4rem;
+  width:4rem;
+  height: 100%;
+  background-color: #ffe;
+  border-bottom: 1px solid #ffe;
 }
 
 header {
@@ -136,6 +154,7 @@ main > section {
   background-color: #ffe;
   /* overflow: hidden; */
   padding: 0.5rem;
+  background-color: #ffe;
 }
 
 main > section h2 {
@@ -1082,8 +1101,40 @@ section.audio ul button:hover {text-decoration: underline; cursor: pointer;}
 @media (min-width:800px) {
   section.audio figure {width:35rem; }
 
-  section.audio ul {padding-left: 2rem;list-style-type: none;  }
+  section.audio ul {padding-left: 2rem; list-style-type: none; width:calc(100% - 38rem) }
 }
 
 
 section + h3 {background-color: #ffe; margin:0; padding:.5rem;}
+
+
+/* EBOOK */
+
+.ebook {display: flex; flex-direction: column;}
+
+.ebook a {
+  display: block;
+  width: 300px;
+  height: 400px;
+  /* margin: 2rem 1rem; */
+}
+
+.ebook > a {
+  position: relative;
+  height: auto;
+  box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.5);
+}
+
+.ebook > a:hover {
+  box-shadow: 5px 5px 12px rgba(51, 51, 51, 0.7);
+}
+
+@media (min-width:800px) {
+.ebook {
+  background-color: rgba(51,51,51,.02);
+  width:45rem;
+  flex-direction: row-reverse;
+justify-content: space-between; padding:0;}
+
+.ebook > div {padding: 2rem;max-width:23rem;}
+}
