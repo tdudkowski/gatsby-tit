@@ -265,7 +265,7 @@ export default ({ data }) => {
               <li>PDF 22 MB</li>
             </ul>
           </div>
-          <a href="http://tdudkowski.usermd.net/files/tuitam/TUiTAM - Opowiem ci o Wroclawiu.pdf"><Img fluid={data.okladka_opowiem.childImageSharp.fluid} alt="okładka e-booka" width="200" className="" /></a>
+          <a href="http://tdudkowski.usermd.net/files/tuitam/TUiTAM_-_Opowiem_ci_o_Wroclawiu.pdf"><Img fluid={data.okladka_opowiem.childImageSharp.fluid} alt="okładka e-booka" width="200" className="" /></a>
 
         </div>
       </section>
