@@ -249,10 +249,10 @@ export default ({ data }) => {
       </section>
       <section>
         <h3 className="line-bottom">Opis</h3>
-        <p>W ramach programu Narodowego Centrum Kultury pn. „Kultura w sieci” Stowarzyszenie Podróżników TUiTAM realizuje w okresie od 11.05.2020 do 30.10.2020 projekt „Opowiem ci o Wrocławiu – historie, których nie słyszałeś”.</p>
-        <p>W ramach projektu powstało sto krótkich historii inspirowanych detalem, miejscem i plenerem filmowym. Tematem postów będzie dziedzictwo kulturowe Wrocławia, jego zabytki, pomniki, muzea, artyści, wydarzenia z dawnej i powojennej historii miasta. Teksty do publikacji pojawiały się jako codzienne posty na fanpage'u Stowarzyszenia.</p>
-        <p>Najciekawsze opowieści oraz te, które wzbudziły największe zainteresowanie czytelników, staną się rozdziałami e-booka i audiobooka oraz podstawą do scenariuszy krótkich filmów video.</p>
-        <p>Multimedialna książka o Wrocławiu pt. "Opowiem ci o Wrocławiu – historie, których nie słyszałeś" będzie pierwszą tego typu publikacją o mieście łączącą różne formy przekazu (bogato ilustrowane teksty z nagraniami audio oraz filmami). Będzie to praca zbiorowa, stworzą ją przewodnicy ze Stowarzyszenia TUiTAM.</p>
+        <p>W ramach programu Narodowego Centrum Kultury pn. „Kultura w sieci” Stowarzyszenie Podróżników TUiTAM realizowało w okresie od 11.05.2020 do 30.10.2020 projekt „Opowiem ci o Wrocławiu – historie, których nie słyszałeś”.</p>
+        <p>W ramach projektu powstało sto krótkich historii inspirowanych detalem, miejscem i plenerem filmowym. Tematem postów było dziedzictwo kulturowe Wrocławia, jego zabytki, pomniki, muzea, artyści, wydarzenia z dawnej i powojennej historii miasta. Teksty do publikacji pojawiały się jako codzienne posty na fanpage'u Stowarzyszenia.</p>
+        <p>Najciekawsze opowieści oraz te, które wzbudziły największe zainteresowanie czytelników, stały się rozdziałami e-booka i audiobooka oraz podstawą do scenariuszy krótkich filmów video.</p>
+        <p>Multimedialna książka o Wrocławiu pt. "Opowiem ci o Wrocławiu – historie, których nie słyszałeś" jest pierwszą tego typu publikacją o mieście łączącą różne formy przekazu (bogato ilustrowane teksty z nagraniami audio oraz filmami). Jest to praca zbiorowa, stworzona przez przewodników ze Stowarzyszenia TUiTAM.</p>
       </section>
       <h3 className="line-bottom">E-book</h3>
       <section>

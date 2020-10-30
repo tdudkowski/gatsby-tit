@@ -32,6 +32,7 @@ div.container {
 .line-bottom {
   border-bottom: 1px solid rgba(51,51,51,.2);
   padding-bottom: .6rem;
+  padding-top:2rem;
   margin-left:4rem;
   position: relative;
 }
@@ -1112,6 +1113,8 @@ section + h3 {background-color: #ffe; margin:0; padding:.5rem;}
 
 .ebook {display: flex; flex-direction: column;}
 
+.ebook ul {list-style-type: circle;}
+
 .ebook a {
   display: block;
   width: 300px;
@@ -1132,9 +1135,11 @@ section + h3 {background-color: #ffe; margin:0; padding:.5rem;}
 @media (min-width:800px) {
 .ebook {
   background-color: rgba(51,51,51,.02);
+  border: 1px solid  rgba(51,51,51,.1);;
   width:45rem;
   flex-direction: row-reverse;
-justify-content: space-between; padding:0;}
+justify-content: space-between;
+margin-left:1rem;}
 
 .ebook > div {padding: 2rem;max-width:23rem;}
 }
