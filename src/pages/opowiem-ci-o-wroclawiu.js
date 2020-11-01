@@ -298,8 +298,6 @@ export default ({ data }) => {
       <h3 className="line-bottom">Wideo</h3>
       <section className="videos">
 
-        <div><Video className="video" videoSrcURL="https://www.youtube.com/embed/VLAP3KK6lP0" videoTitle='"Wrocławianki zaklęte w kamień" Wojciech Zalewski [10:34]' /><div>"Wrocławianki zaklęte w kamień" Wojciech Zalewski [10:34]</div></div>
-
         <div><Video className="video" videoSrcURL="https://www.youtube.com/embed/wTPAmgN7GJQ" videoTitle='"EPlac Solny we Wrocławiu" [8:20]' /><div>"Plac Solny we Wrocławiu" Beata Wers [6:52]</div></div>
 
         <div><Video className="video" videoSrcURL="https://www.youtube.com/embed/R-TD-4j6xi8" videoTitle='"Eugeniusz Get-Stankiewicz" Wojciech Zalewski [8:20]' /><div>"Eugeniusz Get-Stankiewicz" Wojciech Zalewski [8:20]</div></div>
@@ -317,6 +315,8 @@ export default ({ data }) => {
         <div><Video className="video" videoSrcURL="https://www.youtube.com/embed/OV-BinWY4x0" videoTitle='"Sylwester Chęciński. Filmowy Wrocław" Małgorzata Urlich-Kornacka oraz Bogdan Bernacki [8:40]' /><div>"Sylwester Chęciński. Filmowy Wrocław" Małgorzata Urlich-Kornacka oraz Bogdan Bernacki [8:40]</div></div>
 
         <div><Video className="video" videoSrcURL="https://www.youtube.com/embed/WvJ2aM4EyWg" videoTitle='"Wrocławskie NAJ, czyli śladami miejskich rekordów" Małgorzata Urlich-Kornacka [9:02]' /><div>"Wrocławskie NAJ, czyli śladami miejskich rekordów" Małgorzata Urlich-Kornacka [9:02]</div></div>
+
+        <div><Video className="video" videoSrcURL="https://www.youtube.com/embed/VLAP3KK6lP0" videoTitle='"Wrocławianki zaklęte w kamień" Wojciech Zalewski [10:34]' /><div>"Wrocławianki zaklęte w kamień" Wojciech Zalewski [10:34]</div></div>
 
       </section>
       <section>
