@@ -5,7 +5,7 @@ module.exports = {
     title: `Stowarzyszeniee TUiTAM`,
     description: `Stowarzyszeniee TUiTAM, turystyka, wycieczka, Dolny Śląsk, Wrocław, Ostrów Tumski, Sudety`,
     author: `Tadeusz Dudkowski | http://dygresje.info`,
-    siteUrl: `http://przewodnicy.org/`,
+    siteUrl: `https://przewodnicy.org/`,
   },
   pathPrefix: "/gatsby-tit",
   plugins: [
@@ -16,6 +16,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     'gatsby-plugin-styled-components',
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

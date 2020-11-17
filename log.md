@@ -10,6 +10,8 @@ npm i --save @fortawesome/fontawesome-svg-core
   npm install --save gatsby-plugin-fontawesome-css
 
 npm install --save gatsby-plugin-styled-components styled-components babel-plugin-styled-components
+npm install gatsby-plugin-sitemap
+
 
 - formularz ?
 - title (helmet) ?
