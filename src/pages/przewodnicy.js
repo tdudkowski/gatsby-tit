@@ -177,7 +177,7 @@ export default ({ data }) => {
                         <li className="name">Beata Wers</li>
                         <li className="guide">przewodnik miejski wrocławski, pilot wycieczek</li>
                         <li className="language">język: polski, angielski, francuski</li>
-                        <li className="contact"> <i className="fa fa-at" aria-hidden="true"></i> beata.wers@wp.pl</li>
+                        <li className="contact"> <i className="fa fa-mobile" aria-hidden="true"></i> 604 934 385 | <i className="fa fa-at" aria-hidden="true"></i> beata.wers@wp.pl</li>
                     </ul>
                 </div>
                 <div>
