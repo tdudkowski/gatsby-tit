@@ -276,6 +276,7 @@ section.projects {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-content: space-around;
+  
 }
 
 section.projects > div {
@@ -299,11 +300,31 @@ section.projects div h3 {
   position: relative;
 }
 
+.y20::before, .y21::before {
+  position:absolute;
+  content: "";
+  font-size:2.5rem;
+  font-weight: bold;
+  color: rgba(251,51,51,.3);
+  right: -1.5rem;
+  transform: rotate(10deg);
+  top:-3%;
+  text-shadow: 2px 2px 4px rgba(251,251,51,.5);
+}
+
+.y20::before {
+  content: "2020";
+  }
+
+.y21::before {
+  content: "2021";
+}
+
 .project > div {
   padding-left: 0;
 }
 
-.project:nth-of-type(1) div {
+.project.tropem div {
   padding-left: 0;
   padding-bottom: 60px;
 }
@@ -319,6 +340,23 @@ section.projects div h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+ }
+
+  .project.zwroclawiemwtle div::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background-image: url("../images/afisz-z_wroclawiem_w_tle-marzec150px.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: contain;
+}
+
+.project.zwroclawiemwtle {
+  padding-bottom: 200px;
 }
 
 .project.opowiem {
@@ -355,8 +393,13 @@ section.projects div h3 {
   background-size: contain;
 }
 
-.project.covid {
+.project.covid  {
   padding-bottom: 300px;
+  justify-self: start !important;
+  align-self: flex-start !important;
+  place-self: start start !important;
+  display: flex;
+  flex-basis: 95%;
 }
 
 .project.covid div::after {
@@ -424,6 +467,9 @@ footer .line {
   list-style-type: none;
 }
 
+.imgandtxt {display:flex; flex-direction: column;}
+.imgandtxt a {display: block;}
+
 /* MEDIA QUERIES */
 
 @media (min-width: 600px) {
@@ -444,8 +490,22 @@ footer .line {
 
   .project.opowiem,
   .project.dodaj,
-  .project.covid {
+  .project.covid,
+  .project.project.zwroclawiemwtle {
     padding-bottom: 0;
+  }
+
+  .project.zwroclawiemwtle div::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 100%;
+    background-image: url("../images/afisz-z_wroclawiem_w_tle-marzec150px.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
   }
 
   .project.opowiem div::after {
@@ -566,6 +626,10 @@ footer .line {
     flex: 1;
     margin: 0.5rem;
   }
+
+  .imgandtxt {flex-direction: row;}
+  .imgandtxt a {flex-basis: 300px;}
+  .imgandtxt div {flex:1;}
 }
 
 @media (min-width: 860px) {
