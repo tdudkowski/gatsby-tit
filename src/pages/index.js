@@ -72,6 +72,15 @@ poczytasz o Wrocławiu i o Dolnym Śląsku (już wkrótce).</li>
       <section className="projects">
         <h2>Aktualności</h2>
 
+        <div className="project wroclawnaturasztukaarchitektura y21">
+          <div>
+            <h3>"Wrocław. Natura, sztuka i architektura"</h3>
+            <p>Przewodnik "Wrocław - natura, sztuka i architektura" jest efektem wspólnej pracy członków i sympatyków Stowarzyszenia Podróżników TUiTAM. Opisaną przez nas trasę dedykujemy Piotrowi Kasznickiemu (1967-2018), naszemu koledze, przyjacielowi, świetnemu przewodnikowi po Wrocławiu i znawcy świata roślin, o których potrafił fascynująco opowiadać.
+</p>
+            <Link to="/wroclaw-natura-sztuka-architektura" className="link-button">Przejdź do projektu</Link>
+          </div>
+        </div>
+
         <div className="project zwroclawiemwtle y21">
           <div>
             <h3>"Z Wrocławiem w tle"</h3>

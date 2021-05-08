@@ -342,7 +342,25 @@ section.projects div h3 {
   background-size: contain;
  }
 
-  .project.zwroclawiemwtle div::after {
+.project.wroclawnaturasztukaarchitektura div::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  /* bottom: 0; */
+  width: 200px;
+  height: 250px;
+  background-image: url("../images/wroclaw-natura-sztuka-architektura-okladka200px.jpg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+ }
+
+ .project.wroclawnaturasztukaarchitektura {
+  /* padding-bottom: 200px; */
+}
+
+.project.zwroclawiemwtle div::after {
   position: absolute;
   content: "";
   left: 0;
@@ -399,7 +417,7 @@ section.projects div h3 {
   align-self: flex-start !important;
   place-self: start start !important;
   display: flex;
-  flex-basis: 95%;
+  /* flex-basis: 95%; */
 }
 
 .project.covid div::after {
