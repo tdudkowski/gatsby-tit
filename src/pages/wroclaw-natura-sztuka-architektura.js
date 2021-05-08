@@ -34,7 +34,7 @@ export default ({ data }) => {
             </section>
 
             <section className="cards">
-                <a href="http://tdudkowski.usermd.net/files/tuitam/Wroclaw_Przyroda_Sztuka_Architektura.pdf">
+                <a href="http://tdudkowski.usermd.net/files/tuitam/Wroclaw_przyroda_sztuka_architektura.pdf">
                     <Img fluid={data.okladka.childImageSharp.fluid} className="cover" alt="okładka przewodnika" />
                     <div>ebook do pobrania<br />PDF 62 MB, 69 stron</div></a></section>
 
