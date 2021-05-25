@@ -249,9 +249,11 @@ export default ({ data }) => {
       </section>
       <section>
         <h3 className="line-bottom">Opis</h3>
-        <p>„Od słowa do słowa” to projekt zrealizowany przez Stowarzyszenie TUITAM od 16 marca do 30 października 2020 roku w ramach programu Narodowego Centrum Kultury pn. „Ojczysty dodaj do ulubionych 2020”.</p>
-        <p>Podczas realizacji projektu zwracaliśmy uwagę na przestrzeń miejską jako nośnik wartości kulturowych, uwrażliwialiśmy na język mówiony i pisany, rozbudzaliśmy zainteresowanie językiem i literaturą polską. W ramach zadania opracowaliśmy tematyczne karty zadań oraz kartę do gry miejskiej. Częścią praktyczną projektu było osiem wycieczek tematycznych. Podczas spacerów z przewodnikami uczestnicy, odkrywając Wrocław, jego zabytki i architekturę, poznali historie biblijne, mity, baśnie i legendy, motywy literackie związane z miastem oraz sylwetki pisarzy tworzących we Wrocławiu i piszących o naszym mieście.</p>
-        <p>Zrealizowane zostały dwie gry miejskie, gra towarzyska – quiz pt. „Od słowa do słowa, czyli zapytaj mnie o Wrocław” oraz zestaw pocztówek z cytatami z dzieł pisarzy związanych z miastem.</p>
+        <p>W ramach programu Narodowego Centrum Kultury pn. „Kultura w sieci” Stowarzyszenie Podróżników TUiTAM realizowało w okresie od 11.05.2020 do 30.10.2020 r. projekt pt. „Opowiem ci o Wrocławiu. Historie, których nie słyszałeś”.
+          </p><p>
+          W jego projektu powstało sto krótkich historii inspirowanych detalem, miejscem i plenerem filmowym. Tematem postów było dziedzictwo kulturowe Wrocławia, jego zabytki, pomniki, muzea, artyści, wydarzenia z dawnej i powojennej historii miasta. Teksty do publikacji pojawiały się jako codzienne posty na fanpage'u Stowarzyszenia.
+          </p><p>
+          Opowieści, które wzbudziły największe zainteresowanie czytelników, stały się rozdziałami e-booka i audiobooka oraz podstawą do scenariuszy krótkich filmów video. Multimedialna książka o Wrocławiu pt. „Opowiem ci o Wrocławiu. Historie, których nie słyszałeś” jest pierwszą tego typu publikacją o mieście łączącą różne formy przekazu (bogato ilustrowane teksty z nagraniami audio oraz filmami). Jest to praca zbiorowa, stworzona przez przewodników ze Stowarzyszenia Podróżników TUiTAM.</p>
       </section>
       <h3 className="line-bottom">E-book</h3>
       <section>
@@ -297,7 +299,7 @@ export default ({ data }) => {
       <h3 className="line-bottom">Wideo</h3>
       <section className="videos">
 
-        <div><Video className="video" videoSrcURL="https://www.youtube.com/embed/wTPAmgN7GJQ" videoTitle='"EPlac Solny we Wrocławiu" [8:20]' /><div>"Plac Solny we Wrocławiu" Beata Wers [6:52]</div></div>
+        <div><Video className="video" videoSrcURL="https://www.youtube.com/embed/wTPAmgN7GJQ" videoTitle='"Plac Solny we Wrocławiu" [8:20]' /><div>"Plac Solny we Wrocławiu" Beata Wers [6:52]</div></div>
 
         <div><Video className="video" videoSrcURL="https://www.youtube.com/embed/R-TD-4j6xi8" videoTitle='"Eugeniusz Get-Stankiewicz" Wojciech Zalewski [8:20]' /><div>"Eugeniusz Get-Stankiewicz" Wojciech Zalewski [8:20]</div></div>
 
