@@ -85,7 +85,8 @@ poczytasz o Wrocławiu i o Dolnym Śląsku (już wkrótce).</li>
           <div>
             <h3>"Z Wrocławiem w tle"</h3>
             <p>„Z Wrocławiem w tle” – to nowy cykl literacki zorganizowany we współpracy z Wydziałem Promocji Miasta i Turystyki Urzędu Miejskiego we Wrocławiu i Wrocławskim Domem Literatury. A partnerami w tym projekcie jest Stowarzyszenie TUITAM oraz Odra Centrum. Na cykl składają się spotkania z autorami żyjącymi, tworzącymi lub piszącymi o Wrocławiu oraz spacery literackie śladami bohaterów ich powieści.
-</p>
+              </p>
+            <p>Najbliższy termin: 24-25 czerwca.</p>
             <Link to="/z-wroclawiem-w-tle" className="link-button">Przejdź do projektu</Link>
           </div>
         </div>

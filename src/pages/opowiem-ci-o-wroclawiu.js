@@ -249,7 +249,7 @@ export default ({ data }) => {
       </section>
       <section>
         <h3 className="line-bottom">Opis</h3>
-        <p>W ramach programu Narodowego Centrum Kultury pn. „Kultura w sieci” Stowarzyszenie Podróżników TUiTAM realizowało w okresie od 11.05.2020 do 30.10.2020 r. projekt pt. „Opowiem ci o Wrocławiu. Historie, których nie słyszałeś”.
+        <p>W ramach programu Narodowego Centrum Kultury pn. „Kultura w sieci” Stowarzyszenie Podróżników TUiTAM realizowało w okresie od 11.05 do 30.10.2020 r. projekt pt. „Opowiem ci o Wrocławiu. Historie, których nie słyszałeś”.
           </p><p>
           W jego projektu powstało sto krótkich historii inspirowanych detalem, miejscem i plenerem filmowym. Tematem postów było dziedzictwo kulturowe Wrocławia, jego zabytki, pomniki, muzea, artyści, wydarzenia z dawnej i powojennej historii miasta. Teksty do publikacji pojawiały się jako codzienne posty na fanpage'u Stowarzyszenia.
           </p><p>
