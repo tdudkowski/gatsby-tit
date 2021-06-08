@@ -27,6 +27,22 @@ export default () => {
       </section>
       <section className="projects">
 
+        <div className="project muzycznywroclaw y21">
+          <div>
+            <h3>Muzyczny Wrocław</h3>
+            <p>Projekt obejmujący tematyczne spacery po Wrocławiu, którym towarzyszyć będzie muzyczna niespodzianka oraz koncert na Akademii Muzycznej im. Karola Józefa Lipińskiego. Będzie to doskonała okazja do poznania talentu młodych artystów oraz bogactwa muzycznego stolicy Dolnego Śląska. Cały koncert będzie moderowany i urozmaicony historiami i anegdotami ze świata muzycznego Wrocławia. Dla potrzeb projektu zostanie skomponowana muzyczna wizytówka Stowarzyszenia Podróżników TUiTAM.</p>
+            <Link to="/muzyczny-wroclaw" className="link-button">Przejdź do projektu</Link>
+          </div>
+        </div>
+
+        <div className="project wroclawskarozawiatrow y21">
+          <div>
+            <h3>Filmowa róża wiatrów, czyli dolnośląski set jetting</h3>
+            <p>To propozycja dla miłośników turystyki filmowej i zwolenników aktywnego spędzenia czasu wolnego. W ramach projektu powstanie dwanaście tekstów dotyczących miejscowości wokół Wrocławia (miast, wiosek i innych przestrzeni), które stały się plenerami znanych i mniej znanych filmów i seriali. Teksty te będą ukazywały się regularnie na <a href="https://www.facebook.com/filmwroclaw">fejsbukowym profilu „Filmowy Wrocław”</a> i będą udostępniane na stronach Stowarzyszenia TUiTAM.</p>
+            <Link to="/filmowa-roza-wiatrow" className="link-button">Przejdź do projektu</Link>
+          </div>
+        </div>
+
         <div className="project wroclawnaturasztukaarchitektura y21">
           <div>
             <h3>"Wrocław. Natura, sztuka i architektura"</h3>

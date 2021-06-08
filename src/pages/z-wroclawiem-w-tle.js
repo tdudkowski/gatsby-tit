@@ -49,6 +49,8 @@ const ZWroclawiemWTle = ({ data }) => {
     </Layout >)
 }
 
+export default ZWroclawiemWTle
+
 export const pageQuery = graphql`
   query {
     afisz_luty: file(relativePath: { eq: "afisz-z_wroclawiem_w_tle.jpg" }) {
@@ -78,4 +80,3 @@ export const pageQuery = graphql`
    }
 `;
 
-export default ZWroclawiemWTle
