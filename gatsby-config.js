@@ -2,7 +2,7 @@ const path = require(`path`)
 
 module.exports = {
   siteMetadata: {
-    title: `Stowarzyszeniee TUiTAM`,
+    title: `Stowarzyszenie TUiTAM`,
     description: `Stowarzyszeniee TUiTAM, turystyka, wycieczka, Dolny Śląsk, Wrocław, Ostrów Tumski, Sudety`,
     author: `Tadeusz Dudkowski | http://dygresje.info`,
     siteUrl: `https://przewodnicy.org/`,

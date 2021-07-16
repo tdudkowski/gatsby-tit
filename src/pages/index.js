@@ -39,19 +39,19 @@ export default ({ data }) => {
             i Dolnym Śląsku. Nasi przewodnicy oferują usługi przewodnickie po
             Wrocławiu, okolicach Wrocławia oraz Dolnym Śląsku dla grup
             zorganizowanych i indywidualnych turystów.
-            </p>
+          </p>
           <p>Na naszej stronie:</p>
 
           <ul>
             <li><FontAwesomeIcon icon={faHandPointRight} size="1x" className="fa-glif" />
-                dowiesz się o formach naszej działalności, o tym, jakie
-                  realizujemy projekty
-              </li>
+              dowiesz się o formach naszej działalności, o tym, jakie
+              realizujemy projekty
+            </li>
             <li><FontAwesomeIcon icon={faHandPointRight} size="1x" className="fa-glif" />
-                możesz zamówić przewodnika i wybrać trasę wycieczki
-              </li>
+              możesz zamówić przewodnika i wybrać trasę wycieczki
+            </li>
             <li><FontAwesomeIcon icon={faHandPointRight} size="1x" className="fa-glif" />
-poczytasz o Wrocławiu i o Dolnym Śląsku (już wkrótce).</li>
+              poczytasz o Wrocławiu i o Dolnym Śląsku (już wkrótce).</li>
           </ul>
         </div>
 
@@ -71,6 +71,16 @@ poczytasz o Wrocławiu i o Dolnym Śląsku (już wkrótce).</li>
       </section>
       <section className="projects">
         <h2>Aktualności</h2>
+
+        <div className="project zwroclawiemwtle y21">
+          <div>
+            <h3>"Z Wrocławiem w tle"</h3>
+            <p>„Z Wrocławiem w tle” – to nowy cykl literacki zorganizowany we współpracy z Wydziałem Promocji Miasta i Turystyki Urzędu Miejskiego we Wrocławiu i Wrocławskim Domem Literatury. A partnerami w tym projekcie jest Stowarzyszenie TUITAM oraz Odra Centrum. Na cykl składają się spotkania z autorami żyjącymi, tworzącymi lub piszącymi o Wrocławiu oraz spacery literackie śladami bohaterów ich powieści.
+            </p>
+            <p><strong>Najbliższy termin: 21-22 lipca</strong>.</p>
+            <Link to="/z-wroclawiem-w-tle" className="link-button">Przejdź do projektu</Link>
+          </div>
+        </div>
 
         <div className="project muzycznywroclaw y21">
           <div>
@@ -92,18 +102,8 @@ poczytasz o Wrocławiu i o Dolnym Śląsku (już wkrótce).</li>
           <div>
             <h3>"Wrocław. Natura, sztuka i architektura"</h3>
             <p>Przewodnik "Wrocław - natura, sztuka i architektura" jest efektem wspólnej pracy członków i sympatyków Stowarzyszenia Podróżników TUiTAM. Opisaną przez nas trasę dedykujemy Piotrowi Kasznickiemu (1967-2018), naszemu koledze, przyjacielowi, świetnemu przewodnikowi po Wrocławiu i znawcy świata roślin, o których potrafił fascynująco opowiadać.
-</p>
+            </p>
             <Link to="/wroclaw-natura-sztuka-architektura" className="link-button">Przejdź do projektu</Link>
-          </div>
-        </div>
-
-        <div className="project zwroclawiemwtle y21">
-          <div>
-            <h3>"Z Wrocławiem w tle"</h3>
-            <p>„Z Wrocławiem w tle” – to nowy cykl literacki zorganizowany we współpracy z Wydziałem Promocji Miasta i Turystyki Urzędu Miejskiego we Wrocławiu i Wrocławskim Domem Literatury. A partnerami w tym projekcie jest Stowarzyszenie TUITAM oraz Odra Centrum. Na cykl składają się spotkania z autorami żyjącymi, tworzącymi lub piszącymi o Wrocławiu oraz spacery literackie śladami bohaterów ich powieści.
-              </p>
-            <p>Najbliższy termin: 24-25 czerwca.</p>
-            <Link to="/z-wroclawiem-w-tle" className="link-button">Przejdź do projektu</Link>
           </div>
         </div>
 
@@ -120,10 +120,10 @@ poczytasz o Wrocławiu i o Dolnym Śląsku (już wkrótce).</li>
           <div>
             <h3>"Tropem naszego dziedzictwa" - przewodnik</h3>
             <p>„Tropem naszego dziedzictwa. Kąty Wrocławskie, Kobierzyce, Żórawina, Siechnice, Domaniów” - przewodnik po gminach leżących w sąsiedztwie lub tuż przy granicach Wrocławia.
-</p><p>
+            </p><p>
               Autorzy: tekst Marta Miniewicz, zdjęcia Zbigniew Sobierajski.<br />
-PDF do pobrania, 96 stron, 12 MB.
-</p><p>
+              PDF do pobrania, 96 stron, 12 MB.
+            </p><p>
               Wydawnictwo współfinansowane jest ze środków UE w ramach realizacji projektu grantowego LGD Lider A4 pod nazwą "Dbamy o nasze dziedzictwo, w przestrzeni obszaru Lider A4 i działaniach mieszkańców!"
             </p>
             <Link to="/tropem-naszego-dziedzictwa" className="link-button">Przejdź do projektu</Link>
@@ -147,10 +147,10 @@ PDF do pobrania, 96 stron, 12 MB.
             <h3>Odkryj to sam - edukacja regionalna w sieci</h3>
             <p>
               W ramach projektu „Covid-19” i zadania „Odkryj to sam - edukacja regionalna w sieci” przygotowanych zostało 8 multimedialnych kart aktywności dla dzieci i młodzieży oraz rodzin z dziećmi. Tematyczne karty rozwijają zainteresowania społeczności lokalnej Wrocławiem, jego dziedzictwem kulturowym oraz pogłębiają wiedzę o powiecie wrocławskim i regionie dolnośląskim.
-</p>
+            </p>
             <p>
               Zadanie „Odkryj to sam – edukacja regionalna w sieci” zostało sfinansowane ze środków otrzymanych z NIW-CRSO w ramach „Programu Wsparcia Doraźnego Organizacji Pozarządowych w Zakresie Przeciwdziałania Skutkom COVID-19".
-</p>
+            </p>
             <p>
               Projekt finansowany przez Narodowy Instytut Wolności. Centrum Rozwoju Społeczeństwa Obywatelskiego
             </p>
