@@ -72,29 +72,31 @@ export default ({ data }) => {
       <section className="projects">
         <h2>Aktualności</h2>
 
-        <div className="project zwroclawiemwtle y21">
+        <div className="project filmowarozawiatrow y21">
           <div>
-            <h3>"Z Wrocławiem w tle"</h3>
-            <p>„Z Wrocławiem w tle” – to nowy cykl literacki zorganizowany we współpracy z Wydziałem Promocji Miasta i Turystyki Urzędu Miejskiego we Wrocławiu i Wrocławskim Domem Literatury. A partnerami w tym projekcie jest Stowarzyszenie TUITAM oraz Odra Centrum. Na cykl składają się spotkania z autorami żyjącymi, tworzącymi lub piszącymi o Wrocławiu oraz spacery literackie śladami bohaterów ich powieści.
+            <h3>Filmowa róża wiatrów, czyli dolnośląski set jetting</h3>
+            <p>To propozycja dla miłośników turystyki filmowej i zwolenników aktywnego spędzenia czasu wolnego. W ramach projektu powstało szesnaście tekstów dotyczących Wrocławia oraz miejscowości wokół stolicy Dolnego Śląska (miast, wiosek i innych przestrzeni), które stały się plenerami znanych i mniej znanych filmów i seriali. Teksty te ukazywały się regularnie na fejsbukowym profilu „Filmowy Wrocław” i udostępniane były na stronach Stowarzyszenia TUiTAM. Powstał z nich atrakcyjny w formie e-book, który zachęca do rowerowego set jettingu, czyli wypraw do plenerów filmowych na dwóch kółkach.
             </p>
-            <p><strong>Najbliższy termin: 21-22 lipca</strong>.</p>
-            <Link to="/z-wroclawiem-w-tle" className="link-button">Przejdź do projektu</Link>
+            <Link to="/filmowa-roza-wiatrow" className="link-button">Przejdź do projektu</Link>
           </div>
         </div>
 
         <div className="project muzycznywroclaw y21">
           <div>
             <h3>Muzyczny Wrocław</h3>
-            <p>Projekt obejmujący tematyczne spacery po Wrocławiu, którym towarzyszyć będzie muzyczna niespodzianka oraz koncert na Akademii Muzycznej im. Karola Józefa Lipińskiego. Będzie to doskonała okazja do poznania talentu młodych artystów oraz bogactwa muzycznego stolicy Dolnego Śląska. Cały koncert będzie moderowany i urozmaicony historiami i anegdotami ze świata muzycznego Wrocławia. Dla potrzeb projektu zostanie skomponowana muzyczna wizytówka Stowarzyszenia Podróżników TUiTAM.</p>
+            <p>W ramach projektu zaprosiliśmy wrocławian na sześć tematycznych spacerów po mieście, którym towarzyszyła muzyczna niespodzianka w wykonaniu młodych artystów z Akademii Muzycznej im. Karola Lipińskiego oraz absolwentów Ogólnokształcącej Szkoły Muzycznej I i II stopnia im. Karola Szymanowskiego we Wrocławiu. Zaś podsumowaniem projektu był koncert „Muzyczny Wrocław na przestrzeni wieków – saksofon i nie tylko…”, który urozmaicony został historiami i anegdotami ze świata muzycznego Wrocławia. Była to doskonała okazja do poznania talentu młodych artystów oraz bogactwa muzycznego stolicy Dolnego Śląska. Dla potrzeb projektu została skomponowana muzyczna wizytówka Stowarzyszenia Podróżników TUiTAM.</p>
+            {/* <p>Projekt obejmujący tematyczne spacery po Wrocławiu, którym towarzyszyć będzie muzyczna niespodzianka oraz koncert na Akademii Muzycznej im. Karola Józefa Lipińskiego. Będzie to doskonała okazja do poznania talentu młodych artystów oraz bogactwa muzycznego stolicy Dolnego Śląska. Cały koncert będzie moderowany i urozmaicony historiami i anegdotami ze świata muzycznego Wrocławia. Dla potrzeb projektu zostanie skomponowana muzyczna wizytówka Stowarzyszenia Podróżników TUiTAM.</p> */}
             <Link to="/muzyczny-wroclaw" className="link-button">Przejdź do projektu</Link>
           </div>
         </div>
 
-        <div className="project wroclawskarozawiatrow y21">
+        <div className="project zwroclawiemwtle y21">
           <div>
-            <h3>Filmowa róża wiatrów, czyli dolnośląski set jetting</h3>
-            <p>To propozycja dla miłośników turystyki filmowej i zwolenników aktywnego spędzenia czasu wolnego. W ramach projektu powstanie dwanaście tekstów dotyczących miejscowości wokół Wrocławia (miast, wiosek i innych przestrzeni), które stały się plenerami znanych i mniej znanych filmów i seriali. Teksty te będą ukazywały się regularnie na <a href="https://www.facebook.com/filmwroclaw">fejsbukowym profilu „Filmowy Wrocław”</a> i będą udostępniane na stronach Stowarzyszenia TUiTAM.</p>
-            <Link to="/filmowa-roza-wiatrow" className="link-button">Przejdź do projektu</Link>
+            <h3>"Z Wrocławiem w tle"</h3>
+            <p>„Z Wrocławiem w tle” – to nowy cykl literacki zorganizowany we współpracy z Wydziałem Promocji Miasta i Turystyki Urzędu Miejskiego we Wrocławiu i Wrocławskim Domem Literatury. A partnerami w tym projekcie jest Stowarzyszenie TUITAM oraz Odra Centrum. Na cykl składają się spotkania z autorami żyjącymi, tworzącymi lub piszącymi o Wrocławiu oraz spacery literackie śladami bohaterów ich powieści.
+            </p>
+            <p><strong>Czas: 21-22 lipca 2021</strong>.</p>
+            <Link to="/z-wroclawiem-w-tle" className="link-button">Przejdź do projektu</Link>
           </div>
         </div>
 
