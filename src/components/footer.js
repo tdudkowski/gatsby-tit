@@ -19,12 +19,15 @@ const Footer = () => {
         <li><Link to="/dzialalnosc">Działalność</Link>
           <ul>
             <li className="line">2020-21</li>
-            <li><Link to="/tropem-naszego-dziedzictwa">Tropem naszego dziedzictwa</Link></li>
-            <li><Link to="/opowiem-ci-o-wroclawiu">Opowiem ci o Wrocławiu</Link></li>
-            <li><Link to="/od-slowa-do-slowa">Od słowa do słowa</Link></li>
-            <li><Link to="/odkryj-to-sam">Odkryj to sam</Link></li>
+            <li><Link to="/filmowa-roza-wiatrow">Filmowa róża wiatrów, czyli dolnośląski set jetting</Link></li>
+            <li><Link to="/muzyczny-wroclaw">Muzyczny Wrocław</Link></li>
             <li><Link to="/z-wroclawiem-w-tle">Z Wrocławiem w tle</Link></li>
             <li><Link to="/wroclaw-natura-sztuka-architektura">"Wrocław. Natura, sztuka i architektura"</Link></li>
+            <li><Link to="/opowiem-ci-o-wroclawiu">Opowiem ci o Wrocławiu</Link></li>
+            <li><Link to="/tropem-naszego-dziedzictwa">Tropem naszego dziedzictwa</Link></li>
+            <li><Link to="/od-slowa-do-slowa">Od słowa do słowa</Link></li>
+            <li><Link to="/odkryj-to-sam">Odkryj to sam</Link></li>
+            <li><Link to="/z-biegiem-rzeki">Z biegiem rzeki – o Odrze i jej dopływach</Link></li>
             <li className="line">Poprzednie lata</li>
             <li><Link to="/odkrywamy-wroclaw">Odkrywamy Wrocław</Link></li>
             <li><Link to="/poznajemy-wroclaw">Poznajemy Wrocław</Link></li>
@@ -50,8 +53,8 @@ const Footer = () => {
       <h3>Dane kontaktowe</h3>
       <div>
         Stowarzyszenie Podróżników TUiTAM<br />
-Wierzbice, ul. Lipowa 47<br />
-55-040 Kobierzyce<br />
+        Wierzbice, ul. Lipowa 47<br />
+        55-040 Kobierzyce<br />
       </div>
       <ul>
         <li> <i className="fa fa-mobile" aria-hidden="true"></i>&nbsp; +48 661 172 250</li>

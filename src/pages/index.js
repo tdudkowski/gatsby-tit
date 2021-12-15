@@ -93,9 +93,9 @@ export default ({ data }) => {
         <div className="project zwroclawiemwtle y21">
           <div>
             <h3>"Z Wrocławiem w tle"</h3>
-            <p>„Z Wrocławiem w tle” – to nowy cykl literacki zorganizowany we współpracy z Wydziałem Promocji Miasta i Turystyki Urzędu Miejskiego we Wrocławiu i Wrocławskim Domem Literatury. A partnerami w tym projekcie jest Stowarzyszenie TUITAM oraz Odra Centrum. Na cykl składają się spotkania z autorami żyjącymi, tworzącymi lub piszącymi o Wrocławiu oraz spacery literackie śladami bohaterów ich powieści.
-            </p>
-            <p><strong>Czas: 21-22 lipca 2021</strong>.</p>
+            <p>To cykl literacki zainicjowany przez Stowarzyszenie Podróżników TUiTAM a zrealizowany we współpracy z Wrocławskim Domem Literatury, Wydziałem Promocji Miasta i Turystyki Urzędu Miejskiego Wrocławia oraz Odra Centrum. W ramach projektu zaprosiliśmy wrocławian zainteresowanych literaturą i historią stolicy Dolnego Śląska na cykl czterech spotkań z autorkami mieszkającymi, tworzącymi lub piszącymi o Wrocławiu oraz cykl czterech tematycznych spacerów literackich śladami bohaterów ich powieści. Ich bohaterkami były wrocławskie pisarki Nadia Szagdaj, Malwina Ferenz i Jolanta Kaleta oraz poetka Ewa Sonnenberg. Podsumowaniem spotkań i wycieczek są autorskie filmy zrealizowane przez Małgorzatę Urlich-Kornacką i Marcina Załuckiego. Można w nich zobaczyć miejsca związane z wybranymi dziełami literackimi wspomnianych autorek i usłyszeć fragmenty tych utworów w ich wykonaniu.</p>
+            {/* <p>„Z Wrocławiem w tle” – to nowy cykl literacki zorganizowany we współpracy z Wydziałem Promocji Miasta i Turystyki Urzędu Miejskiego we Wrocławiu i Wrocławskim Domem Literatury. A partnerami w tym projekcie jest Stowarzyszenie TUITAM oraz Odra Centrum. Na cykl składają się spotkania z autorami żyjącymi, tworzącymi lub piszącymi o Wrocławiu oraz spacery literackie śladami bohaterów ich powieści.</p>
+            <p><strong>Czas: 21-22 lipca 2021</strong>.</p> */}
             <Link to="/z-wroclawiem-w-tle" className="link-button">Przejdź do projektu</Link>
           </div>
         </div>
