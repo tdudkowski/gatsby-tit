@@ -359,6 +359,32 @@ section.projects div h3 {
   padding-bottom: 200px;
 }
 
+.project.podrozdoprzeszlosci div::after {
+  position: absolute;
+  content: "";
+  left: .5rem;
+  top: .5rem;
+  width: 170px;
+  height: 200px;
+  background-image: url("../images/podroz-do-przeszlosci-okladka-300px.jpg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+ }
+
+.project.zbiegiemrzeki div::after {
+  position: absolute;
+  content: "";
+  left: .5rem;
+  top: .5rem;
+  width: 100%;
+  height: 200px;
+  background-image: url("../images/Z_biegiem_rzeki-okladka-200px.jpg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+ }
+
  .project.filmowarozawiatrow div::after {
   position: absolute;
   content: "";

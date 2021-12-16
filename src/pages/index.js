@@ -72,6 +72,24 @@ export default ({ data }) => {
       <section className="projects">
         <h2>Aktualności</h2>
 
+        <div className="project podrozdoprzeszlosci y21">
+          <div>
+            <h3>Marta Miniewicz, Karol Bykowski<br />"Podróż do przeszłości. Powiat wrocławski na dawnych pocztówkach"</h3>
+            <p>To kolejne wydawnictwo Stowarzyszenia TUITAM, które poświęcone jest historii miasteczek i wsi powiatu wrocławskiego.
+            </p>
+            <Link to="/podroz-do-przeszlosci" className="link-button">Przejdź do projektu</Link>
+          </div>
+        </div>
+
+        <div className="project zbiegiemrzeki y21">
+          <div>
+            <h3>Z biegiem rzeki - o Odrze i jej dopływach</h3>
+            <p>Odra, najważniejsza rzeka Dolnego Śląska oraz jej główne dopływy – Widawa, Oława, Ślęza, Bystrzyca i Nysa Kłodzka – stały się głównymi bohaterkami naszego projektu pt. Z biegiem rzeki – o Odrze i jej dopływach.<br /><br /><br />
+            </p>
+            <Link to="/z-biegiem-rzeki" className="link-button">Przejdź do projektu</Link>
+          </div>
+        </div>
+
         <div className="project filmowarozawiatrow y21">
           <div>
             <h3>Filmowa róża wiatrów, czyli dolnośląski set jetting</h3>
