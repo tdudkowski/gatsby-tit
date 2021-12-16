@@ -1296,3 +1296,8 @@ margin-left:1rem;}
 
 .flexrow {display: flex; border-top: 1px solid gray;}
 .flexrow > a {float:left; flex:1; }
+
+.downloadLink {text-decoration: none;}
+.downloadLink .gatsby-image-wrapper {background-color: transparent; box-shadow: 0 5px 10px rgba(0,0,0,.1);}
+.downloadLink:hover .gatsby-image-wrapper {background-color: transparent; box-shadow: 0 10px 15px rgba(0,0,0,1);}
+.downloadLink:hover {text-decoration: underline;}

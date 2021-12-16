@@ -14,7 +14,7 @@ const FilmowaRozaWiatrow = ({ data }) => {
       </section>
       <section className="imgandtxt">
 
-        <a href="http://tdudkowski.usermd.net/files/tuitam/filmowa_roza_wiatrow_ebook.pdf">
+        <a href="http://tdudkowski.usermd.net/files/tuitam/filmowa_roza_wiatrow_ebook.pdf" className='downloadLink'>
           <p>Pobierz e-book "Filmowa róża wiatrów"<br />
             (PDF 30 MB)</p>
           <Img fluid={data.cover.childImageSharp.fluid} className="cover" alt="Okładka książki" />
