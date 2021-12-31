@@ -14,7 +14,7 @@ const ZWroclawiemWTle = ({ data }) => {
         <h2>Z Wrocławiem w tle</h2>
       </section>
       <section className="imgandtxt">
-        <a href="http://tdudkowski.usermd.net/files/tuitam/afisz-zwrowtle4-640x960.jpg">
+        <a href="https://tdudkowski.usermd.net/files/tuitam/afisz-zwrowtle4-640x960.jpg">
           <Img fluid={data.afisz_lipiec.childImageSharp.fluid} className="cover" alt="afisz czerwiec" />
         </a>
         <div>
@@ -52,15 +52,15 @@ const ZWroclawiemWTle = ({ data }) => {
 
       <section className="flexrow">
 
-        <a href="http://tdudkowski.usermd.net/files/tuitam/afisz-zwrowtle-czerwiec_x641.jpg">
+        <a href="https://tdudkowski.usermd.net/files/tuitam/afisz-zwrowtle-czerwiec_x641.jpg">
           <Img fluid={data.afisz_czerwiec.childImageSharp.fluid} className="cover" alt="afisz czerwiec" />
         </a>
 
-        <a href="http://tdudkowski.usermd.net/files/tuitam/afisz-z_wroclawiem_w_tle-maj.jpg">
+        <a href="https://tdudkowski.usermd.net/files/tuitam/afisz-z_wroclawiem_w_tle-maj.jpg">
           <Img fluid={data.afisz_maj.childImageSharp.fluid} className="cover" alt="afisz marzec" />
         </a>
 
-        <a href="http://tdudkowski.usermd.net/files/tuitam/afisz-z_wroclawiem_w_tle.jpg">
+        <a href="https://tdudkowski.usermd.net/files/tuitam/afisz-z_wroclawiem_w_tle.jpg">
           <Img fluid={data.afisz_luty.childImageSharp.fluid} className="cover" alt="afisz luty" />
         </a>
       </section>

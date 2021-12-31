@@ -13,7 +13,7 @@ const ZBiegiemRzeki = ({ data }) => {
         <h2>Z biegiem rzeki - o Odrze i jej dopływach</h2>
       </section>
       <section className="imgandtxt column">
-        <a href="http://tdudkowski.usermd.net/files/tuitam/Z_biegiem_rzeki.pdf" className='downloadLink'>
+        <a href="https://tdudkowski.usermd.net/files/tuitam/Z_biegiem_rzeki.pdf" className='downloadLink'>
           Ebook do pobrania (PDF 14 MB)
           <Img fluid={data.powodzianka.childImageSharp.fluid} className="cover" alt="program koncertu" />
         </a>

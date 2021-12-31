@@ -7,16 +7,17 @@ import "./layout.css"
 
 const Layout = ({ children }) => {
   return (
-      <div className="container">
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>Stowarzyszenie TUiTAM</title>
-          {/* <link rel="canonical" href="http://mysite.com/example" /> */}
-        </Helmet>
-          <Header/>
-          <main>{children}</main>
-          <Footer />
-      </div>
-  )}
+    <div className="container">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Stowarzyszenie TUiTAM</title>
+        {/* <link rel="canonical" href="http://mysite.com/example" /> */}
+      </Helmet>
+      <Header />
+      <main>{children}</main>
+      <Footer />
+    </div>
+  )
+}
 
 export default Layout

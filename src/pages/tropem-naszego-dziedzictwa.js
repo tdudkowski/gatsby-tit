@@ -26,7 +26,7 @@ zdjęcia wykonał Zbigniew Sobierajski<br />
       </section>
 
       <section className="cards">
-        <a href="http://tdudkowski.usermd.net/files/tuitam/Tropem_naszego_dziedzictwa-ebook.pdf">
+        <a href="https://tdudkowski.usermd.net/files/tuitam/Tropem_naszego_dziedzictwa-ebook.pdf">
           <Img fluid={data.okladka.childImageSharp.fluid} className="cover" alt="okładka przewodnika" />
           <div>ebook do pobrania<br />PDF 12 MB</div></a></section>
 

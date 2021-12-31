@@ -7,19 +7,19 @@ import React from "react";
 const playlist = [{
     title: "Opowiem Ci o Wrocławiu - wstęp",
     artist: "Marta Miniewicz",
-    src: "http://tdudkowski.usermd.net/files/tuitam/opowiem_audio/00_Opowiem_Ci_o_Wroclawiu.mp3",
+    src: "https://tdudkowski.usermd.net/files/tuitam/opowiem_audio/00_Opowiem_Ci_o_Wroclawiu.mp3",
 },
 {
     title: "Alzheimer",
     artist: "Małgorzata Urlich-Kornacka",
-    src: "http://tdudkowski.usermd.net/files/tuitam/opowiem_audio/01_Malgorzata_Urlich-Kornacka_Alzheimer.mp3",
+    src: "https://tdudkowski.usermd.net/files/tuitam/opowiem_audio/01_Malgorzata_Urlich-Kornacka_Alzheimer.mp3",
 }
 ]
 
 let currentAudio = {
     title: "Opowiem Ci o Wrocławiu - wstęp",
     artist: "Marta Miniewicz",
-    src: "http://tdudkowski.usermd.net/files/tuitam/opowiem_audio/00_Opowiem_Ci_o_Wroclawiu.mp3",
+    src: "https://tdudkowski.usermd.net/files/tuitam/opowiem_audio/00_Opowiem_Ci_o_Wroclawiu.mp3",
 }
 
 const Playlist = () => {

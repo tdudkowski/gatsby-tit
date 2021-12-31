@@ -14,10 +14,10 @@ const MuzycznyWroclaw = ({ data }) => {
       </section>
       <section className="imgandtxt column">
 
-        <a href="http://tdudkowski.usermd.net/files/tuitam/Muzyczny_Wroclaw_koncert.jpg">
+        <a href="https://tdudkowski.usermd.net/files/tuitam/Muzyczny_Wroclaw_koncert.jpg">
           <Img fluid={data.program.childImageSharp.fluid} className="cover" alt="program koncertu" />
         </a>
-        {/* <a href="http://tdudkowski.usermd.net/files/tuitam/afisz-muzyczny_wroclaw_x800.jpg">
+        {/* <a href="https://tdudkowski.usermd.net/files/tuitam/afisz-muzyczny_wroclaw_x800.jpg">
           <Img fluid={data.afisz.childImageSharp.fluid} className="cover" alt="afisz czerwiec" />
         </a> */}
 
@@ -31,8 +31,8 @@ const MuzycznyWroclaw = ({ data }) => {
           <p>Zwieńczeniem działań był koncert pt. „Muzyczny Wrocław na przestrzeni wieków – saksofon i nie tylko…”, który odbył się w ramach Europejskiego Forum Saksofonowego na Akademii Muzycznej im. Karola Lipińskiego we Wrocławiu oraz skomponowanie muzycznej wizytówki Stowarzyszenia TUiTAM. Bardzo dziękujemy wszystkim osobom, które się zaangażowały w projekt „Muzyczny Wrocław”: młodym artystom, którzy zagrali podczas wycieczek i wszystkim uczestnikom za ich obecność na wycieczkach.</p>
           <ul>
             <li><a href="https://www.youtube.com/watch?v=utDCiciEvig">Koncert „Muzyczny Wrocław na przestrzeni wieków – saksofon i nie tylko…”</a> na Akademii Muzycznej im. Karola Lipińskiego we Wrocławiu</li>
-            <li><a href="https://youtu.be/I6FYixLl5go">Muzyczna wizytówka Stowarzyszenia TUiTAM</a></li>
-            <li><a href="https://youtu.be/EX84VUu1zxA">Dżingiel Stowarzyszenia TUiTAM</a></li>
+            <li><a href="https://www.youtube.com/watch?v=I6FYixLl5go">Muzyczna wizytówka Stowarzyszenia TUiTAM</a></li>
+            <li><a href="https://www.youtube.com/watch?v=EX84VUu1zxA">Dżingiel Stowarzyszenia TUiTAM</a></li>
           </ul>
           <p>Projekt „Muzyczny Wrocław" został dofinansowany przez Urząd Marszałkowski Województwa Dolnośląskiego.</p>
 
