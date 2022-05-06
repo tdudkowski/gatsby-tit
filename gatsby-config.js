@@ -1,3 +1,5 @@
+require("dotenv").config({ path: `.env`, })
+
 const path = require(`path`)
 
 module.exports = {
@@ -44,14 +46,10 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-gtag`,
+      resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        // your google analytics tracking id
-        trackingId: `UA-2105423-11`,
-        // Puts tracking script in the head instead of the body
-        head: false,
-        // enable ip anonymization
-        anonymize: true,
+        id: process.env.GOOGLE_TAGMANAGER_ID,
+        includeInDevelopment: false,
       },
     },
   ],
