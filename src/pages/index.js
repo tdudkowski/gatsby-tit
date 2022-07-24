@@ -72,6 +72,14 @@ export default ({ data }) => {
       <section className="projects">
         <h2>Aktualności</h2>
 
+        <div className="project quests y22">
+          <div>
+            <h3>Marta Miniewicz<br />Questy: Sobótka, Żórawina, Kąty Wrocławskie</h3>
+            <p>Questing: gra terenowa połączona z zabawą, nauka przez rozwiązywania zagadek.</p>
+            <Link to="/questy" className="link-button">Przejdź do projektu</Link>
+          </div>
+        </div>
+
         <div className="project podrozdoprzeszlosci y21">
           <div>
             <h3>Marta Miniewicz, Karol Bykowski<br />"Podróż do przeszłości. Powiat wrocławski na dawnych pocztówkach"</h3>
