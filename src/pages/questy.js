@@ -17,6 +17,7 @@ const ZBiegiemRzeki = ({ data }) => {
 
         <div className="flexed_images">
             <p>Co to jest <strong>questing</strong>? Słowo quest pochodzi z języka angielskiego i znaczy "poszukiwanie". Questing to rodzaj gry terenowej, w której zwiedzanie połączone jest z zabawą. Waszym zadaniem będzie odkrycie hasła na podstawie rymowanych wskazówek. Wpiszcie odgadnięte, brakujące w tekście słowa, a oznaczone w nich litery w kratkach (liczby wskazują miejsce w haśle) dadzą wam rozwiązanie.</p>
+            <p>Questy zostały przygotowane w ramach zadnia pt. "Sekrety i tajemnice, czyli odkrywca na tropie"  współfinansowanego ze środków Powiatu Wrocławskiego.</p>
          <h3>Sobótka</h3>
 
          <a href="https://tdudkowski.usermd.net/files/tuitam/01-quest-sobotka.pdf" className='downloadLink'>
@@ -30,22 +31,22 @@ const ZBiegiemRzeki = ({ data }) => {
          
          <h3>Żórawina</h3>
 
-        <a href="https://tdudkowski.usermd.net/files/tuitam/02-quest-zorawina_kartapracy.pdf" className='downloadLink'>
+        <a href="https://tdudkowski.usermd.net/files/tuitam/02-quest-zorawina.pdf" className='downloadLink'>
         Quest Żórawina<br />(PDF do pobrania 10,2 MB)
           <Img fluid={data.zorawina.childImageSharp.fluid} className="cover" alt="Żórawina quest" />
         </a>
-        <a href="https://tdudkowski.usermd.net/files/tuitam/02-quest-zorawina.pdf" className='downloadLink'>
+        <a href="https://tdudkowski.usermd.net/files/tuitam/02-quest-zorawina_kartapracy.pdf" className='downloadLink'>
         Quest Żórawina - karta pracy<br />(PDF do pobrania 1,1 MB)
           <Img fluid={data.zorawinakp.childImageSharp.fluid} className="cover" alt="Żórawina quest - karta pracy" />
         </a>
 
          <h3>Kąty Wrocławskie</h3>
 
-         <a href="https://tdudkowski.usermd.net/files/tuitam/03-quest-katywroclawskie_kartapracy.pdf" className='downloadLink'>
+         <a href="https://tdudkowski.usermd.net/files/tuitam/03-quest-katywroclawskie.pdf" className='downloadLink'>
          Quest Kąty Wrocławskie<br />(PDF do pobrania 52 MB)
           <Img fluid={data.katywroclawskie.childImageSharp.fluid} className="cover" alt="Kąty Wrocławskie quest" />
         </a>
-        <a href="https://tdudkowski.usermd.net/files/tuitam/03-quest-katywroclawskie.pdf" className='downloadLink'>
+        <a href="https://tdudkowski.usermd.net/files/tuitam/03-quest-katywroclawskie_kartapracy.pdf" className='downloadLink'>
         Quest Kąty Wrocławskie - karta pracy<br />(PDF do pobrania 46,7 MB)
           <Img fluid={data.katywroclawskiekp.childImageSharp.fluid} className="cover" alt="Kąty Wrocławskie quest - karta pracy" />
         </a>
