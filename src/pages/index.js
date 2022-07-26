@@ -75,7 +75,7 @@ export default ({ data }) => {
         <div className="project quests y22">
           <div>
             <h3>Marta Miniewicz<br />Questy: Sobótka, Żórawina, Kąty Wrocławskie</h3>
-            <p>Questing: gra terenowa połączona z zabawą, nauka przez rozwiązywania zagadek.</p>
+            <p>Questing: gra terenowa połączona z zabawą, nauka przez rozwiązywanie zagadek.</p>
             <Link to="/questy" className="link-button">Przejdź do projektu</Link>
           </div>
         </div>

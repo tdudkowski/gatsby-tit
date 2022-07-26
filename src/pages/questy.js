@@ -10,7 +10,7 @@ const ZBiegiemRzeki = ({ data }) => {
     <Layout>
       <Banner />
       <section>
-        <h2>Marta Miniewicz "Sobótka, Żórawina, Kąty Wrocławskie"</h2>
+        <h2>Marta Miniewicz - Questy: Sobótka, Żórawina, Kąty Wrocławskie</h2>
       </section>
       <section className="imgandtxt column">
           <Img fixed={data.okladka.childImageSharp.fixed} className="contain" alt="questy okładki" />
