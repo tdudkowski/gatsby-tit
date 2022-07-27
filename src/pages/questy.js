@@ -43,11 +43,11 @@ const ZBiegiemRzeki = ({ data }) => {
          <h3>Kąty Wrocławskie</h3>
 
          <a href="https://tdudkowski.usermd.net/files/tuitam/03-quest-katywroclawskie.pdf" className='downloadLink'>
-         Quest Kąty Wrocławskie<br />(PDF do pobrania 52 MB)
+         Quest Kąty Wrocławskie<br />(PDF do pobrania 2,7 MB)
           <Img fluid={data.katywroclawskie.childImageSharp.fluid} className="cover" alt="Kąty Wrocławskie quest" />
         </a>
         <a href="https://tdudkowski.usermd.net/files/tuitam/03-quest-katywroclawskie_kartapracy.pdf" className='downloadLink'>
-        Quest Kąty Wrocławskie - karta pracy<br />(PDF do pobrania 46,7 MB)
+        Quest Kąty Wrocławskie - karta pracy<br />(PDF do pobrania 1 MB)
           <Img fluid={data.katywroclawskiekp.childImageSharp.fluid} className="cover" alt="Kąty Wrocławskie quest - karta pracy" />
         </a>
 
