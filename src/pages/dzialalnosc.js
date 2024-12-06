@@ -27,6 +27,49 @@ export default () => {
       </section>
       <section className="projects">
 
+      <div className="project herstoriapodkasty y24">
+          <div>
+            <h3>To dopiero historia! Herstorie z powiatu wrocławskiego - cykl 4 podcastów</h3>
+            <p>Projekt współfinansowany ze środków powiatu wrocławskiego.</p>
+            <Link to="/to-dopiero-historia" className="link-button">Przejdź do projektu</Link>
+          </div>
+        </div>
+
+        <div className="project quests y22">
+          <div>
+            <h3>Marta Miniewicz<br />Questy: Sobótka, Żórawina, Kąty Wrocławskie</h3>
+            <p>Questing: gra terenowa połączona z zabawą, nauka przez rozwiązywanie zagadek.</p>
+            <Link to="/questy" className="link-button">Przejdź do projektu</Link>
+          </div>
+        </div>
+
+        <div className="project podrozdoprzeszlosci y21">
+          <div>
+            <h3>Marta Miniewicz, Karol Bykowski<br />"Podróż do przeszłości. Powiat wrocławski na dawnych pocztówkach"</h3>
+            <p>To kolejne wydawnictwo Stowarzyszenia TUITAM, które poświęcone jest historii miasteczek i wsi powiatu wrocławskiego.
+            </p>
+            <Link to="/podroz-do-przeszlosci" className="link-button">Przejdź do projektu</Link>
+          </div>
+        </div>
+
+        <div className="project zbiegiemrzeki y21">
+          <div>
+            <h3>Z biegiem rzeki - o Odrze i jej dopływach</h3>
+            <p>Odra, najważniejsza rzeka Dolnego Śląska oraz jej główne dopływy – Widawa, Oława, Ślęza, Bystrzyca i Nysa Kłodzka – stały się głównymi bohaterkami naszego projektu pt. Z biegiem rzeki – o Odrze i jej dopływach.<br /><br /><br />
+            </p>
+            <Link to="/z-biegiem-rzeki" className="link-button">Przejdź do projektu</Link>
+          </div>
+        </div>
+
+        <div className="project filmowarozawiatrow y21">
+          <div>
+            <h3>Filmowa róża wiatrów, czyli dolnośląski set jetting</h3>
+            <p>To propozycja dla miłośników turystyki filmowej i zwolenników aktywnego spędzenia czasu wolnego. W ramach projektu powstało szesnaście tekstów dotyczących Wrocławia oraz miejscowości wokół stolicy Dolnego Śląska (miast, wiosek i innych przestrzeni), które stały się plenerami znanych i mniej znanych filmów i seriali. Teksty te ukazywały się regularnie na fejsbukowym profilu „Filmowy Wrocław” i udostępniane były na stronach Stowarzyszenia TUiTAM. Powstał z nich atrakcyjny w formie e-book, który zachęca do rowerowego set jettingu, czyli wypraw do plenerów filmowych na dwóch kółkach.
+            </p>
+            <Link to="/filmowa-roza-wiatrow" className="link-button">Przejdź do projektu</Link>
+          </div>
+        </div>
+
         <div className="project muzycznywroclaw y21">
           <div>
             <h3>Muzyczny Wrocław</h3>

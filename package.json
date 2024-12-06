@@ -4,6 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
@@ -18,7 +23,7 @@
     "@iconify/react": "^1.1.4",
     "babel-plugin-styled-components": "^1.12.0",
     "dotenv": "^8.6.0",
-    "gatsby": "^4.13.1",
+    "gatsby": "^4.4.0",
     "gatsby-image": "^3.6.0",
     "gatsby-link": "^3.6.0",
     "gatsby-plugin-fontawesome-css": "^1.1.0",

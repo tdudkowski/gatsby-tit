@@ -300,7 +300,7 @@ section.projects div h3 {
   position: relative;
 }
 
-.y20::before, .y21::before, .y22::before {
+.y20::before, .y21::before, .y22::before, .y24::before {
   position:absolute;
   content: "";
   font-size:2.5rem;
@@ -322,6 +322,10 @@ section.projects div h3 {
 
 .y22::before {
   content: "2022";
+}
+
+.y24::before {
+  content: "2024";
 }
 
 .project > div {
@@ -362,6 +366,19 @@ section.projects div h3 {
 .project.muzycznywroclaw {
   padding-bottom: 200px;
 }
+
+.project.herstoriapodkasty div::after {
+  position: absolute;
+  content: "";
+  left: .5rem;
+  top: .5rem;
+  width: 170px;
+  height: 200px;
+  background-image: url("../images/herstoria-collage-330.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+ }
 
 .project.quests div::after {
   position: absolute;

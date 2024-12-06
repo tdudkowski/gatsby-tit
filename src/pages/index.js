@@ -72,6 +72,14 @@ export default ({ data }) => {
       <section className="projects">
         <h2>Aktualności</h2>
 
+        <div className="project herstoriapodkasty y24">
+          <div>
+            <h3>To dopiero historia! Herstorie z powiatu wrocławskiego - cykl 4 podcastów</h3>
+            <p>Projekt współfinansowany ze środków powiatu wrocławskiego.</p>
+            <Link to="/to-dopiero-historia" className="link-button">Przejdź do projektu</Link>
+          </div>
+        </div>
+
         <div className="project quests y22">
           <div>
             <h3>Marta Miniewicz<br />Questy: Sobótka, Żórawina, Kąty Wrocławskie</h3>

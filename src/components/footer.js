@@ -18,7 +18,12 @@ const Footer = () => {
         </li>
         <li><Link to="/dzialalnosc">Działalność</Link>
           <ul>
-            <li className="line">2020-21</li>
+            <li className="line">2020-24</li>
+            <li><Link to="/to-dopiero-historia">To dopiero historia! Herstorie z powiatu wrocławskiego - cykl podcastów</Link></li>
+            <li><Link to="/questy">M. Miniewicz - Questy: Sobótka, Żórawina, Kąty Wrocławskie</Link></li>
+            <li><Link to="/podroz-do-przeszlosci">M. Miniewicz, K. Bykowski "Podróż do przeszłości. Powiat wrocławski na dawnych pocztówkach"</Link></li>
+            <li><Link to="/z-biegiem-rzeki">Z biegiem rzeki - o Odrze i jej dopływach</Link></li>
+
             <li><Link to="/filmowa-roza-wiatrow">Filmowa róża wiatrów, czyli dolnośląski set jetting</Link></li>
             <li><Link to="/muzyczny-wroclaw">Muzyczny Wrocław</Link></li>
             <li><Link to="/z-wroclawiem-w-tle">Z Wrocławiem w tle</Link></li>
