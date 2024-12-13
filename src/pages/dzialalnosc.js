@@ -35,6 +35,24 @@ export default () => {
           </div>
         </div>
 
+                <div className="project kobietaimie y24">
+                  <div>
+                    <h3>"Kobieta niejedno ma imię" Marta Miniewicz, Małgorzata Urlich-Kornacka</h3>
+                    <p>Teksty o ciekawych (a często mało znanych) postaciach kobiecych...</p>
+                    <p>Zadanie współfinansowane ze środków Samorządu Województwa Dolnośląskiego.</p>
+                    <Link to="/kobieta-niejedno-ma-imie" className="link-button">Przejdź do projektu</Link>
+                  </div>
+                </div>
+
+
+                     <div className="project wedrownik y23">
+                        <div>
+                          <h3>"Wędrownik po powiecie wrocławskim" Marta Miniewicz, Małgorzata Urlich-Kornacka</h3>
+                          <p>Teksty są wyborem z publikowanego na stronie Powiatu Wrocławskiego cyklu: "Wędrownik po powiecie wrocławskim - fakty, mity, osobliwości, tajemnice"</p>
+                          <Link to="/wedrownik-po-powiecie-wroclawskim" className="link-button">Przejdź do projektu</Link>
+                        </div>
+                      </div>
+
         <div className="project quests y22">
           <div>
             <h3>Marta Miniewicz<br />Questy: Sobótka, Żórawina, Kąty Wrocławskie</h3>
