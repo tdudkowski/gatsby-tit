@@ -397,7 +397,8 @@ section.projects div h3 {
   background-size: contain;
  }
 
-.project.muzycznywroclaw, .project.opowiesciwherbach, .project.oknonaswiat, .project.herstoriapodkasty, .project.kobietaimie, .project.wedrownik, .project.quests, .project.filmowarozawiatrow, .project.wroclawnaturasztukaarchitektura {
+.project.muzycznywroclaw, .project.opowiesciwherbach, .project.oknonaswiat, .project.herstoriapodkasty, .project.podrozdoprzeszlosci, .project.zbiegiemrzeki,
+.project.kobietaimie, .project.wedrownik, .project.quests, .project.filmowarozawiatrow, .project.wroclawnaturasztukaarchitektura, .project.zwroclawiemwtle, .project.opowiem, .project.dodaj {
   padding-bottom: 200px;
 }
 
@@ -519,14 +520,6 @@ section.projects div h3 {
   background-size: contain;
 }
 
-.project.zwroclawiemwtle {
-  padding-bottom: 200px;
-}
-
-.project.opowiem {
-  padding-bottom: 200px;
-}
-
 .project.opowiem div::after {
   position: absolute;
   content: "";
@@ -538,10 +531,6 @@ section.projects div h3 {
   background-repeat: no-repeat;
   background-position: top left;
   background-size: contain;
-}
-
-.project.dodaj {
-  padding-bottom: 250px;
 }
 
 .project.dodaj div::after {
@@ -662,9 +651,13 @@ footer .line {
   .project.dodaj,
   .project.covid,
   .project.zwroclawiemwtle,
+  .project.filmowarozawiatrow
   .project.wroclawnaturasztukaarchitektura,
   .project.wroclawskarozawiatrow,
-  .project.muzycznywroclaw {
+  .project.muzycznywroclaw,
+  .project.podrozdoprzeszlosci,
+  .project.zbiegiemrzeki,
+  {
     padding-bottom: 0;
   }
 
