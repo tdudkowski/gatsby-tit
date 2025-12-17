@@ -677,7 +677,7 @@ footer .line {
     background-size: contain;
   }
 
-.project.opowiesciwherbach div:after, .project.oknonaswiat div:after, .project.herstoriapodkasty div:after, .project.kobietaimie div:after, .project.kobietaimie div:after {
+.project.opowiesciwherbach div:after, .project.oknonaswiat div:after, .project.herstoriapodkasty div:after, .project.kobietaimie div:after, .project.kobietaimie div:after, .project.wedrownik div:after, .project.quests div:after, .zbiegiemrzeki div:after {
   left: .5rem;
   top: .5rem;
   width: 170px;
