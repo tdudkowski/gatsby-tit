@@ -115,15 +115,7 @@ export default () => {
           </div>
         </div>
 
-        <div className="project wroclawskarozawiatrow y21">
-          <div>
-            <h3>Filmowa róża wiatrów, czyli dolnośląski set jetting</h3>
-            <p>To propozycja dla miłośników turystyki filmowej i zwolenników aktywnego spędzenia czasu wolnego. W ramach projektu powstanie dwanaście tekstów dotyczących miejscowości wokół Wrocławia (miast, wiosek i innych przestrzeni), które stały się plenerami znanych i mniej znanych filmów i seriali. Teksty te będą ukazywały się regularnie na <a href="https://www.facebook.com/filmwroclaw">fejsbukowym profilu „Filmowy Wrocław”</a> i będą udostępniane na stronach Stowarzyszenia TUiTAM.</p>
-            <Link to="/filmowa-roza-wiatrow" className="link-button">Przejdź do projektu</Link>
-          </div>
-        </div>
-
-        <div className="project wroclawnaturasztukaarchitektura y21">
+    <div className="project wroclawnaturasztukaarchitektura y21">
           <div>
             <h3>"Wrocław. Natura, sztuka i architektura"</h3>
             <p>Przewodnik "Wrocław - natura, sztuka i architektura" jest efektem wspólnej pracy członków i sympatyków Stowarzyszenia Podróżników TUiTAM. Opisaną przez nas trasę dedykujemy Piotrowi Kasznickiemu (1967-2018), naszemu koledze, przyjacielowi, świetnemu przewodnikowi po Wrocławiu i znawcy świata roślin, o których potrafił fascynująco opowiadać.
