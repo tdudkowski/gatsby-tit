@@ -71,7 +71,16 @@ export default ({ data }) => {
       </section>
       <section className="projects">
         <h2>Aktualności</h2>
-
+              
+        <div className="project opowiesciwherbach y25">
+          <div>
+            <h3>"Opowieści ukryte w herbach" Marta Miniewicz</h3>
+            <p>Cykl tekstów dotyczących znanych szlacheckich rodów z Dolnego Śląska oraz związane z ich rodowymi herbami legendy</p>
+            <p>Zadanie współfinansowane było przez Powiat Wrocławski.</p>
+            <Link to="/opowiesci-ukryte-w-herbach" className="link-button">Przejdź do projektu</Link>
+          </div>
+        </div>
+              
         <div className="project herstoriapodkasty y24">
           <div>
             <h3>To dopiero historia! Herstorie z powiatu wrocławskiego - cykl 4 podcastów</h3>
