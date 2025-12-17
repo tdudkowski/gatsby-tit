@@ -397,16 +397,16 @@ section.projects div h3 {
   background-size: contain;
  }
 
-.project.muzycznywroclaw, .project.opowiesciwherbach, .project.oknonaswiat, .project.herstoriapodkasty, .project.kobietaimie, .project.wedrownik, .project.quests {
+.project.muzycznywroclaw, .project.opowiesciwherbach, .project.oknonaswiat, .project.herstoriapodkasty, .project.kobietaimie, .project.wedrownik, .project.quests, .project.filmowarozawiatrow, .project.wroclawnaturasztukaarchitektura {
   padding-bottom: 200px;
 }
 
 .project.herstoriapodkasty div::after {
   position: absolute;
   content: "";
-  left: .5rem;
-  top: .5rem;
-  width: 170px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   height: 200px;
   background-image: url("../images/herstoria-collage-330.png");
   background-repeat: no-repeat;
@@ -417,9 +417,9 @@ section.projects div h3 {
  .project.kobietaimie div::after {
   position: absolute;
   content: "";
-  left: .5rem;
-  top: .5rem;
-  width: 170px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   height: 200px;
   background-image: url("../images/Kobieta_niejedno_ma_imie.jpg");
   background-repeat: no-repeat;
@@ -430,9 +430,9 @@ section.projects div h3 {
  .project.wedrownik div::after {
   position: absolute;
   content: "";
-  left: .5rem;
-  top: .5rem;
-  width: 170px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   height: 200px;
   background-image: url("../images/Wedrownik-po-powiecie-wroclawskim.jpg");
   background-repeat: no-repeat;
@@ -443,9 +443,9 @@ section.projects div h3 {
 .project.quests div::after {
   position: absolute;
   content: "";
-  left: .5rem;
-  top: .5rem;
-  width: 170px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   height: 200px;
   background-image: url("../images/questokladki-330.jpg");
   background-repeat: no-repeat;
@@ -457,9 +457,9 @@ section.projects div h3 {
 .project.podrozdoprzeszlosci div::after {
   position: absolute;
   content: "";
-  left: .5rem;
-  top: .5rem;
-  width: 170px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   height: 200px;
   background-image: url("../images/podroz-do-przeszlosci-okladka-300px.jpg");
   background-repeat: no-repeat;
@@ -470,8 +470,8 @@ section.projects div h3 {
 .project.zbiegiemrzeki div::after {
   position: absolute;
   content: "";
-  left: .5rem;
-  top: .5rem;
+  left: 0;
+  bottom: 0;
   width: 100%;
   height: 200px;
   background-image: url("../images/Z_biegiem_rzeki-okladka-200px.jpg");
@@ -483,8 +483,8 @@ section.projects div h3 {
  .project.filmowarozawiatrow div::after {
   position: absolute;
   content: "";
-  left: .5rem;
-  top: .5rem;
+   left: 0;
+  bottom: 0;
   width: 100%;
   height: 200px;
   background-image: url("../images/Filmowa_roza_wiatrow-okladka-200px.jpg");
@@ -492,10 +492,6 @@ section.projects div h3 {
   background-position: top left;
   background-size: contain;
  }
-
-.project.wroclawskarozawiatrow {
-  padding-bottom: 200px;
-}
 
 .project.wroclawnaturasztukaarchitektura div::after {
   position: absolute;
@@ -509,10 +505,6 @@ section.projects div h3 {
   background-position: top left;
   background-size: contain;
  }
-
-.project.wroclawnaturasztukaarchitektura {
-  padding-bottom: 200px;
-}
 
 .project.zwroclawiemwtle div::after {
   position: absolute;
