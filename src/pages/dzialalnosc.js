@@ -27,6 +27,25 @@ export default () => {
       </section>
       <section className="projects">
 
+   <div className="project oknonaswiat y25">
+          <div>
+            <h3>"Okno na świat, czyli o podróżach po Dolnym Śląsku" Marta Miniewicz, Sonia Miniewicz, Małgorzata Urlich-Kornacka</h3>
+            <p>Zbiór tekstów, w których pokazujemy, jak i dokąd dawniej podróżowano oraz jakimi środkami transportu pokonywano często bardzo duże odległości. Przytaczamy relacje z dolnośląskich podróży pisarzy, muzyków, działaczy społecznych i polityków zawarte w dziennikach, pamiętnikach i listach.<br />
+              Zadanie współfinansowane ze środków Urzędu Marszałkowskiego Województwa Dolnośląskiego.</p>
+            <Link to="/okno-na-swiat" className="link-button">Przejdź do projektu</Link>
+          </div>
+        </div>
+              
+        <div className="project opowiesciwherbach y25">
+          <div>
+            <h3>"Opowieści ukryte w herbach" Marta Miniewicz</h3>
+            <p>Cykl tekstów dotyczących znanych szlacheckich rodów z Dolnego Śląska oraz związane z ich rodowymi herbami legendy.<br />
+              Zadanie współfinansowane było przez Powiat Wrocławski.</p>
+            <Link to="/opowiesci-ukryte-w-herbach" className="link-button">Przejdź do projektu</Link>
+          </div>
+        </div>
+
+    
       <div className="project herstoriapodkasty y24">
           <div>
             <h3>To dopiero historia! Herstorie z powiatu wrocławskiego - cykl 4 podcastów</h3>
