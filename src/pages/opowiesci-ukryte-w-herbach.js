@@ -16,11 +16,12 @@ const Herbownik = ({ data }) => {
 
         <a href="https://tdudkowski.usermd.net/files/tuitam/Opowieści_ukryte_w_herbach.pdf">
           <Img fluid={data.okladka.childImageSharp.fluid} className="cover" alt="ebook Opowieści ukryte w herbach - 13 MB" />
-          <div>Ebook do pobrania<br />PDF 13 MB, 94 stron</div>
+          <div>Ebook do pobrania<br />PDF 13 MB, 94 strony</div>
         </a>
 
         <div>
-        <p>Opowieści ukryte w herbach to cykl tekstów autorstwa Marty Miniewicz dotyczących znanych szlacheckich rodów z Dolnego Śląska oraz związane z ich rodowymi herbami legendy. Legendy herbowe to opowieści w dużej mierze fantastyczne, które wyjaśniają znaczenie poszczególnych elementów znajdujących się na tarczy i w klejnocie.</p>
+        <p>Opowieści ukryte w herbach to cykl tekstów autorstwa Marty Miniewicz dotyczących znanych szlacheckich rodów z Dolnego Śląska oraz związane z ich rodowymi herbami legendy.<br />
+           Legendy herbowe to opowieści w dużej mierze fantastyczne, które wyjaśniają znaczenie poszczególnych elementów znajdujących się na tarczy i w klejnocie.</p>
         <p>Zadanie współfinansowane było przez Powiat Wrocławski.</p>
         </div>
       </section>
