@@ -398,9 +398,11 @@ section.projects div h3 {
  }
 
 .project.muzycznywroclaw, .project.opowiesciwherbach, .project.oknonaswiat, .project.herstoriapodkasty, .project.podrozdoprzeszlosci, .project.zbiegiemrzeki,
-.project.kobietaimie, .project.wedrownik, .project.quests, .project.filmowarozawiatrow, .project.wroclawnaturasztukaarchitektura, .project.zwroclawiemwtle, .project.opowiem, .project.dodaj {
+.project.kobietaimie, .project.wedrownik, .project.quests, .project.filmowarozawiatrow, .project.wroclawnaturasztukaarchitektura, .project.zwroclawiemwtle, .project.opowiem {
   padding-bottom: 200px;
 }
+
+.project.dodaj {padding-bottom: 250px;}
 
 .project.herstoriapodkasty div::after {
   position: absolute;
@@ -675,7 +677,7 @@ footer .line {
     background-size: contain;
   }
 
-.project.opowiesciwherbach div:after, .project.oknonaswiat div:after {
+.project.opowiesciwherbach div:after, .project.oknonaswiat div:after, .project.herstoriapodkasty div:after, .project.kobietaimie div:after, .project.kobietaimie div:after {
   left: .5rem;
   top: .5rem;
   width: 170px;
