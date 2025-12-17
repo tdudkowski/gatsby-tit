@@ -25,7 +25,7 @@ const Herbownik = ({ data }) => {
            Legendy herbowe to opowieści w dużej mierze fantastyczne, które wyjaśniają znaczenie poszczególnych elementów znajdujących się na tarczy i w klejnocie.</p>
         <p>Zadanie współfinansowane było przez Powiat Wrocławski.</p>
        <div className="videos">        
-        <div><Video className="video" videoSrcURL="https://www.youtube.com/embed/-YLP0IHVWxo" videoTitle='Opowieści ukryte w herbach [13:00]' /><div>Opowieści ukryte w herbach [13:00]</div></div>
+        <div><Video className="video" videoSrcURL="https://www.youtube.com/embed/PAx1G3tEuUQ?si=P2p2DjXIw-Bfnnym" videoTitle='Opowieści ukryte w herbach [13:00]' /><div>Opowieści ukryte w herbach [13:00]</div></div>
        </div>
         </div>
       </section>
