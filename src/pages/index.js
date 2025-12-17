@@ -71,6 +71,15 @@ export default ({ data }) => {
       </section>
       <section className="projects">
         <h2>Aktualności</h2>
+
+        <div className="project oknonaswiat y25">
+          <div>
+            <h3>"Okno na świat, czyli o podróżach po Dolnym Śląsku" Marta Miniewicz, Sonia Miniewicz, Małgorzata Urlich-Kornacka</h3>
+            <p>Zbiór tekstów, w których pokazujemy, jak i dokąd dawniej podróżowano oraz jakimi środkami transportu pokonywano często bardzo duże odległości. Przytaczamy relacje z dolnośląskich podróży pisarzy, muzyków, działaczy społecznych i polityków zawarte w dziennikach, pamiętnikach i listach.<br />
+              Zadanie współfinansowane ze środków Urzędu Marszałkowskiego Województwa Dolnośląskiego.</p>
+            <Link to="/okno-na-swiat" className="link-button">Przejdź do projektu</Link>
+          </div>
+        </div>
               
         <div className="project opowiesciwherbach y25">
           <div>
