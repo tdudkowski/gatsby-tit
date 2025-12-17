@@ -348,9 +348,9 @@ section.projects div h3 {
 .project.opowiesciwherbach div::after {
   position: absolute;
   content: "";
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  left: .5rem;
+  top: .5rem;
+  width: 170px;
   height: 200px;
   background-image: url("../images/Opowieści_ukryte_w_herbach-okladka.jpg");
   background-repeat: no-repeat;
