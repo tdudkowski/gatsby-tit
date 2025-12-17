@@ -348,9 +348,9 @@ section.projects div h3 {
 .project.oknonaswiat div::after {
   position: absolute;
   content: "";
-  left: .5rem;
-  top: .5rem;
-  width: 170px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   height: 100%;
   background-image: url("../images/Podroze_po_Dolnym_Slasku-okladka.jpg");
   background-repeat: no-repeat;
@@ -361,9 +361,9 @@ section.projects div h3 {
 .project.opowiesciwherbach div::after {
   position: absolute;
   content: "";
-  left: .5rem;
-  top: .5rem;
-  width: 170px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   height: 200px;
   background-image: url("../images/Opowieści_ukryte_w_herbach-okladka.jpg");
   background-repeat: no-repeat;
@@ -660,6 +660,8 @@ footer .line {
     padding-left: 180px;
   }
 
+  .project.oknonaswiat,
+  .project.opowiesciwherbach,
   .project.opowiem,
   .project.dodaj,
   .project.covid,
@@ -683,6 +685,13 @@ footer .line {
     background-position: top left;
     background-size: contain;
   }
+
+.project.opowiesciwherbach div:after, .project.oknonaswiat div:after {
+  left: .5rem;
+  top: .5rem;
+  width: 170px;
+  height: 200px;
+background-position: top left;}
 
 .project.muzycznywroclaw div::after {
   position: absolute;
